@@ -19,23 +19,23 @@ import linker from './components/GlobalVars';
 function App() {
   return (
     <React.Fragment>
-    <div>
-      <Router>
-        <Navbar />
-        <ScrollToTop>
-        <Route path={`${linker}`} exact component={Dashboard} />
-        <Switch>
-          <Route path={`${linker}Home`} exact component={Dashboard} />
-          <Route path={`${linker}Events`} exact component={Events} />
-          <Route path={`${linker}Membership`} exact component={Membership} />
-          <Route path={`${linker}Team`} exact component={Team} />
-          <Route path={`${linker}Contact`} exact component={Contact} />
-          <Route path={`${linker}About`} exact component={About} />
-        </Switch>
-        </ScrollToTop>
-      <Footer />
-      </Router>
-    </div>
+      <div>
+        <Router>
+          <Navbar />
+          <ScrollToTop>
+            <Route path={`${linker}`} exact component={Dashboard} />
+            <Switch>
+              <Route path={`${linker}Home`} exact component={Dashboard} />
+              <Route path={`${linker}Events`} exact component={Events} />
+              <Route path={`${linker}Membership`} exact component={Membership} />
+              <Route path={`${linker}Team`} exact component={Team} />
+              <Route path={`${linker}Contact`} exact component={Contact} />
+              <Route path={`${linker}About`} exact component={About} />
+            </Switch>
+          </ScrollToTop>
+          <Footer />
+        </Router>
+      </div>
     </React.Fragment>
   );
 }
