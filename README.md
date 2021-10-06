@@ -1,3 +1,3 @@
-# Official Repository for ACM - IOIT 2020-21 website.
+# Official Repository for ACM - IOIT 2021-22 website.
 
-Check the current LIVE build at : https://infamousxd.github.io/acm-ioit-react/
+Check the current LIVE build at : https://adi720.github.io/Home
