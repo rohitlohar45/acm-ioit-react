@@ -4,6 +4,7 @@ import './Team.css'
 import adi from "../../assets/team/Adi.jpg";
 import TeamCard2 from './TeamCard2';
 import TeamCard3 from './TeamCard3';
+
 const Team = () => {
     return (
         <>

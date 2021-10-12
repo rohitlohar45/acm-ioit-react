@@ -1,6 +1,7 @@
 import React from 'react'
 import { LinkedIn } from '@material-ui/icons'
 import "./TeamCard2.css";
+
 const TeamCard2 = ({ src, name, role }) => {
     return (
         <div className="team-container">

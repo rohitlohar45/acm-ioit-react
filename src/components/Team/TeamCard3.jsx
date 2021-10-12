@@ -2,6 +2,7 @@ import React from 'react'
 import teams from './TeamData'
 import { LinkedIn } from '@material-ui/icons'
 import "./TeamCard3.css";
+
 const TeamCard3 = () => {
     return (
         <div className="teams-body">

@@ -5,7 +5,7 @@ import {Button} from 'react-bootstrap'
 function UpcomingEvent(props) {
     return (
         <div>
-            <div class="header">
+            <div className="header">
                 <h2>Upcoming-Events</h2>
             </div>
             <div className="event-body2">
