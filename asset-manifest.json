@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/acm-ioit-react/static/css/main.3e58ce1b.chunk.css",
-    "main.js": "/acm-ioit-react/static/js/main.9c2a4f42.chunk.js",
-    "main.js.map": "/acm-ioit-react/static/js/main.9c2a4f42.chunk.js.map",
+    "main.css": "/acm-ioit-react/static/css/main.62d12b12.chunk.css",
+    "main.js": "/acm-ioit-react/static/js/main.77f7fac4.chunk.js",
+    "main.js.map": "/acm-ioit-react/static/js/main.77f7fac4.chunk.js.map",
     "runtime-main.js": "/acm-ioit-react/static/js/runtime-main.a1ee0668.js",
     "runtime-main.js.map": "/acm-ioit-react/static/js/runtime-main.a1ee0668.js.map",
-    "static/css/2.5d3159b2.chunk.css": "/acm-ioit-react/static/css/2.5d3159b2.chunk.css",
-    "static/js/2.dd767d59.chunk.js": "/acm-ioit-react/static/js/2.dd767d59.chunk.js",
-    "static/js/2.dd767d59.chunk.js.map": "/acm-ioit-react/static/js/2.dd767d59.chunk.js.map",
+    "static/css/2.7816199e.chunk.css": "/acm-ioit-react/static/css/2.7816199e.chunk.css",
+    "static/js/2.dfcadf96.chunk.js": "/acm-ioit-react/static/js/2.dfcadf96.chunk.js",
+    "static/js/2.dfcadf96.chunk.js.map": "/acm-ioit-react/static/js/2.dfcadf96.chunk.js.map",
     "index.html": "/acm-ioit-react/index.html",
-    "static/css/2.5d3159b2.chunk.css.map": "/acm-ioit-react/static/css/2.5d3159b2.chunk.css.map",
-    "static/css/main.3e58ce1b.chunk.css.map": "/acm-ioit-react/static/css/main.3e58ce1b.chunk.css.map",
-    "static/js/2.dd767d59.chunk.js.LICENSE.txt": "/acm-ioit-react/static/js/2.dd767d59.chunk.js.LICENSE.txt",
+    "static/css/2.7816199e.chunk.css.map": "/acm-ioit-react/static/css/2.7816199e.chunk.css.map",
+    "static/css/main.62d12b12.chunk.css.map": "/acm-ioit-react/static/css/main.62d12b12.chunk.css.map",
+    "static/js/2.dfcadf96.chunk.js.LICENSE.txt": "/acm-ioit-react/static/js/2.dfcadf96.chunk.js.LICENSE.txt",
     "static/media/Adi.5c483c14.jpg": "/acm-ioit-react/static/media/Adi.5c483c14.jpg",
-    "static/media/styles.css": "/acm-ioit-react/static/media/revicons.e8746a62.woff"
+    "static/media/about.3e3431e1.jpg": "/acm-ioit-react/static/media/about.3e3431e1.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.a1ee0668.js",
-    "static/css/2.5d3159b2.chunk.css",
-    "static/js/2.dd767d59.chunk.js",
-    "static/css/main.3e58ce1b.chunk.css",
-    "static/js/main.9c2a4f42.chunk.js"
+    "static/css/2.7816199e.chunk.css",
+    "static/js/2.dfcadf96.chunk.js",
+    "static/css/main.62d12b12.chunk.css",
+    "static/js/main.77f7fac4.chunk.js"
   ]
 }
