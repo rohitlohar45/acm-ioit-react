@@ -1,10 +1,10 @@
-import React, {useState, useEffect} from 'react';
+import React, { useState, useEffect } from 'react';
 import { NavLink } from 'react-router-dom';
 import { FaBars, FaTimes } from "react-icons/fa";
 import MenuItems from "./MenuItems";
 import "./Navbar.css";
 // import acmLogo from '../../../assets/acm.png'
-import {anime} from 'react-anime';
+import { anime } from 'react-anime';
 import linker from '../GlobalVars';
 
 const Navbar = (props) => {
@@ -24,11 +24,11 @@ const Navbar = (props) => {
             duration: 5000
         });
         logoTextAnimation
-        .add({
-            targets: '.logo-text',
-            color: '#09FF00',
-            easing: 'easeInOutCirc',
-        })
+            .add({
+                targets: '.logo-text',
+                color: '#09FF00',
+                easing: 'easeInOutCirc',
+            })
         window.addEventListener("scroll", () => {
             if (window.scrollY > 100) {
                 handleShow(true);
@@ -39,25 +39,25 @@ const Navbar = (props) => {
     }, []);
     return (
         <nav className={`nav ${show && "nav_black"}`}>
-        <div className="nav_center container">
-            <div className='logo-text'>
-                ACM IOIT
-            </div>
+            <div className="nav_center container">
+                <div className='logo-text'>
+                    ACM IOIT
+                </div>
 
-            <ul className={click ? "nav_list active" : "nav_list"}>
-            {MenuItems.map(({ id, title, cName }) => (
-                <li key={id} className="nav_item">
-                <NavLink to={`${linker}${title}`} name={cName}>{title}</NavLink>
-                {/* For official deployment, uncomment below */}
-                {/* <NavLink to={`/${title}`} className={cName}>{title}</NavLink> */}
-                </li>
-            ))}
-            </ul>
+                <ul className={click ? "nav_list active" : "nav_list"}>
+                    {MenuItems.map(({ id, title, cName }) => (
+                        <li key={id} className="nav_item">
+                            <NavLink to={`${linker}${title}`} className={cName}>{title}</NavLink>
+                            {/* For official deployment, uncomment below */}
+                            {/* <NavLink to={`/${title}`} className={cName}>{title}</NavLink> */}
+                        </li>
+                    ))}
+                </ul>
 
-            <div className="hamburger_icon" onClick={clickHandler}>
-            {click ? <FaTimes /> : <FaBars />}
+                <div className="hamburger_icon" onClick={clickHandler}>
+                    {click ? <FaTimes /> : <FaBars />}
+                </div>
             </div>
-        </div>
         </nav>
     )
 }
