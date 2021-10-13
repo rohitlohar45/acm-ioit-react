@@ -1,19 +1,22 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import './Team.css'
-// import TeamCard from './TeamCard';
-import adi from "../../assets/team/Adi.jpg";
+import Aditya from "../../assets/team/Aditya.jpg";
 import TeamCard2 from './TeamCard2';
 import TeamCard3 from './TeamCard3';
-
+import Aos from 'aos';
+import 'aos/dist/aos.css';
 const Team = () => {
+    useEffect(() => {
+        Aos.init();
+    }, [])
     return (
         <>
             <div className="team-body">
                 <h1>Our Team</h1>
 
-                <TeamCard2 src={adi} name="Meenakshi Thalor" role="Faculty Guide" />
+                <TeamCard2 src={Aditya} name="Meenakshi Thalor" role="Faculty Guide" />
 
-                <TeamCard3 />
+                <TeamCard3 aos="fade-up" easing="ease-in-out" />
 
 
             </div>

@@ -1,20 +1,15 @@
-/* .team-container{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 80%;
-    margin: auto;
-} */
 
 .team-container{
     /* background: #f7f5ec; */
-    background: #03161f;
+    /* background: #03161f; */
+    background: #111517;
     text-align: center;
     overflow: hidden;
     position: relative;
     margin: 0px 20px;
     padding: 30px 0 40px;
     width: 30%;
+    height: 360px;
 }
 
 .team-container .image{
@@ -111,6 +106,6 @@
 
         .team-container{
             width: 80%;
-            margin-top: 30px;
+            /* margin-top: 30px; */
         }
 }
