@@ -9,7 +9,7 @@ import Footer from './components/Footer/Footer';
 import Team from './components/Team/Team';
 import Membership from './components/Membership/Membership';
 import Events from './components/Events/Events';
-import Contact from './components/Contact/Contact';
+import Contact from './components/Contact/Contact2';
 import About from './components/About/About';
 
 import ScrollToTop from './components/ScrollToTop';
