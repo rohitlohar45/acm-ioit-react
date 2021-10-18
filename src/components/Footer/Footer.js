@@ -111,7 +111,7 @@ const Footer = () => {
       </footer>
 
       <div className="afterFooter">
-        <p>Developed by AISSMS ACM Student chapter</p>
+        <p>Developed by AISSMS IOIT ACM Student chapter</p>
         <Button onClick={() => setModalIsOpen(true)}>WebTeam</Button>
         <Modal
           isOpen={modalIsOpen}
