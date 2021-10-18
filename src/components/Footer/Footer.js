@@ -1,12 +1,18 @@
-import React from "react";
-import './Footer.css';
-import { Container } from 'react-bootstrap';
+import React, { useState } from "react";
+import "./Footer.css";
+import { Container } from "react-bootstrap";
+import Modal from "react-modal";
+import { Button } from "react-bootstrap";
+import WebTeamCard2 from "./webTeam/WebTeamCard2";
 
 
+Modal.setAppElement("#root");
 const Footer = () => {
   const textStyle = {
-    fontWeight: 'bold'
-  }
+    fontWeight: "bold",
+  };
+
+  const [modalIsOpen, setModalIsOpen] = useState(false);
 
   return (
     <div>
@@ -66,7 +72,9 @@ const Footer = () => {
                   <i className="far fa-envelope"></i>
                 </span>
                 <p>
-                  <a style={textStyle} href="mailto:support@ioit.acm.org">support@ioit.acm.org</a>
+                  <a style={textStyle} href="mailto:support@ioit.acm.org">
+                    support@ioit.acm.org
+                  </a>
                 </p>
               </li>
             </ul>
@@ -76,24 +84,65 @@ const Footer = () => {
             <h2>Quick Links</h2>
             <ul>
               <li>
-                <a style={textStyle} href="localhost:3000">About</a>
+                <a style={textStyle} href="localhost:3000">
+                  About
+                </a>
               </li>
               <li>
-                <a style={textStyle} href="localhost:3000">Home</a>
+                <a style={textStyle} href="localhost:3000">
+                  Home
+                </a>
               </li>
               <li>
-                <a style={textStyle} href="https://dl.acm.org/">ACM Digital Library</a>
+                <a style={textStyle} href="https://dl.acm.org/">
+                  ACM Digital Library
+                </a>
               </li>
               <li>
-                <a style={textStyle} href="localhost:3000">Membership</a>
+                <a style={textStyle} href="localhost:3000">
+                  Membership
+                </a>
               </li>
             </ul>
           </div>
 
           {/* <img src="http://localhost:3000/static/media/acm2.01084429.png" height="175px" width="175px"></img> */}
-
         </Container>
       </footer>
+
+      <div className="afterFooter">
+        <p>Developed by AISSMS ACM Student chapter</p>
+        <Button onClick={() => setModalIsOpen(true)}>WebTeam</Button>
+        <Modal
+          isOpen={modalIsOpen}
+          onRequestClose={() => setModalIsOpen(false)}
+          style={{
+            padding: "-17px",
+            background: "#002030",
+
+            overlay: {
+              zIndex: 98,
+              backgroundColor: "grey",
+            },
+            content: {
+              top: "2rem",
+              height: "90vh",
+              background: "#002030",
+            },
+          }}
+        >
+          <div className="webTeam-body">
+            <h1>Our Web Team</h1>
+            <WebTeamCard2 />
+          </div>
+          <Button
+            style={{ float: "right", margin: "1rem", display: "block" }}
+            onClick={() => setModalIsOpen(false)}
+          >
+            X
+          </Button>
+        </Modal>
+      </div>
     </div>
   );
 };
