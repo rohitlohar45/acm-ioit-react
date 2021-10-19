@@ -35,7 +35,6 @@
 .team-container .image::before{
     content: "";
     width: 100%;
-    height: 0;
     border-radius: 50%;
     background: #1785eb;
     position: absolute;
@@ -55,7 +54,7 @@
 
     content: "";
     width: 100%;
-    height: 100%;
+    height: 0;
     border-radius: 50%;
     background: #1785eb;
     position: absolute;
@@ -66,8 +65,8 @@
 
 .team-container .image img{
     width: 100%;
-    height: auto;
-    /* height: 100%; */
+    /* height: auto; */
+    height: 100%;
     border-radius: 50%;
     transform: scale(1.1);
     border: 1px solid;
