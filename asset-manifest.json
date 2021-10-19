@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/acm-ioit-react/static/css/main.c3fbe24a.chunk.css",
-    "main.js": "/acm-ioit-react/static/js/main.84219b53.chunk.js",
-    "main.js.map": "/acm-ioit-react/static/js/main.84219b53.chunk.js.map",
+    "main.css": "/acm-ioit-react/static/css/main.a50349ab.chunk.css",
+    "main.js": "/acm-ioit-react/static/js/main.dd186ea9.chunk.js",
+    "main.js.map": "/acm-ioit-react/static/js/main.dd186ea9.chunk.js.map",
     "runtime-main.js": "/acm-ioit-react/static/js/runtime-main.a1ee0668.js",
     "runtime-main.js.map": "/acm-ioit-react/static/js/runtime-main.a1ee0668.js.map",
     "static/css/2.c54e5117.chunk.css": "/acm-ioit-react/static/css/2.c54e5117.chunk.css",
-    "static/js/2.e32c6f96.chunk.js": "/acm-ioit-react/static/js/2.e32c6f96.chunk.js",
-    "static/js/2.e32c6f96.chunk.js.map": "/acm-ioit-react/static/js/2.e32c6f96.chunk.js.map",
+    "static/js/2.eb583dd1.chunk.js": "/acm-ioit-react/static/js/2.eb583dd1.chunk.js",
+    "static/js/2.eb583dd1.chunk.js.map": "/acm-ioit-react/static/js/2.eb583dd1.chunk.js.map",
     "index.html": "/acm-ioit-react/index.html",
     "static/css/2.c54e5117.chunk.css.map": "/acm-ioit-react/static/css/2.c54e5117.chunk.css.map",
-    "static/css/main.c3fbe24a.chunk.css.map": "/acm-ioit-react/static/css/main.c3fbe24a.chunk.css.map",
-    "static/js/2.e32c6f96.chunk.js.LICENSE.txt": "/acm-ioit-react/static/js/2.e32c6f96.chunk.js.LICENSE.txt",
+    "static/css/main.a50349ab.chunk.css.map": "/acm-ioit-react/static/css/main.a50349ab.chunk.css.map",
+    "static/js/2.eb583dd1.chunk.js.LICENSE.txt": "/acm-ioit-react/static/js/2.eb583dd1.chunk.js.LICENSE.txt",
     "static/media/Aditya.5c483c14.jpg": "/acm-ioit-react/static/media/Aditya.5c483c14.jpg",
     "static/media/Ankit.1e792dbe.jpg": "/acm-ioit-react/static/media/Ankit.1e792dbe.jpg",
     "static/media/Ashish.3e917aa5.jpg": "/acm-ioit-react/static/media/Ashish.3e917aa5.jpg",
@@ -26,13 +26,17 @@
     "static/media/Shruti.88396356.jpg": "/acm-ioit-react/static/media/Shruti.88396356.jpg",
     "static/media/Sushil.74cda851.jpg": "/acm-ioit-react/static/media/Sushil.74cda851.jpg",
     "static/media/Vaishnavi.b4fb273f.jpg": "/acm-ioit-react/static/media/Vaishnavi.b4fb273f.jpg",
-    "static/media/about.3e3431e1.jpg": "/acm-ioit-react/static/media/about.3e3431e1.jpg"
+    "static/media/about.3e3431e1.jpg": "/acm-ioit-react/static/media/about.3e3431e1.jpg",
+    "static/media/About.css": "/acm-ioit-react/static/media/bgcurvedark.f8484632.svg",
+    "static/media/svg2.9800be39.svg": "/acm-ioit-react/static/media/svg2.9800be39.svg",
+    "static/media/svg3.405676b5.svg": "/acm-ioit-react/static/media/svg3.405676b5.svg",
+    "static/media/svg5.ff6ab554.svg": "/acm-ioit-react/static/media/svg5.ff6ab554.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.a1ee0668.js",
     "static/css/2.c54e5117.chunk.css",
-    "static/js/2.e32c6f96.chunk.js",
-    "static/css/main.c3fbe24a.chunk.css",
-    "static/js/main.84219b53.chunk.js"
+    "static/js/2.eb583dd1.chunk.js",
+    "static/css/main.a50349ab.chunk.css",
+    "static/js/main.dd186ea9.chunk.js"
   ]
 }
