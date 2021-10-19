@@ -1,11 +1,179 @@
+.bg{
+    height: 100vh;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: url('../../assets/about/bgcurvedark.svg') right no-repeat;
+    background-size: 105vh 100vw;
+    display: none;
+}
 .about-body {
-    min-height: 100vh;
-    background-color: #000;
+    width: 100%;
+    height: min-100vh;
+    background: #000;
+    color: #fff;
     padding: 10vh 6vw;
-    color: #00aaff;
+    /* color: #00aaff; */
     font-weight: 500;
     font-size: 3.2vh;
+
 }
-.about-description{
-    color: #ffffff;
+
+
+.about{
+    font-size: 5rem;
 }
+.ab{
+    text-decoration-color: #00aaff !important;
+    text-decoration: underline;
+}
+
+.text-blue{
+    color: #00aaff !important;
+}
+
+.sections{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 5rem;
+    scroll-snap-type: y mandatory;
+}
+
+.sections .section{
+    width: 100%;
+    min-height: calc(100%/3);
+    display: flex;
+    align-items: center;
+    background: #333;
+    color: #fff;
+    box-shadow: 0px 0px 5px rgb(255, 255, 255);
+    border-radius: 10px;
+    scroll-snap-align: start;
+    transition: all .3s;
+}
+
+
+
+.image{
+    width: 30%;
+    height: 100%;
+    /* flex-direction: column; */
+}
+.content{
+    width: 70%;
+    height: 100%;
+    font-size: 2.5vh;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.sections .section2{
+    flex-direction: row-reverse;
+}
+
+.sections .section2 .content{
+    align-items: end;
+}
+
+.text-black{
+    color: #000 !important;
+}
+.heading{
+    font-size: 2.8rem;
+    font-weight: bold;
+}
+
+.line{
+    height: 10%;
+    width: 2px;
+    background: #00aaff;
+    transition: all .3s;
+}
+
+.section1:hover .line1{
+    height: 100%;
+}
+
+.image1 p{
+    font-size: 8rem;
+    text-shadow: 0px 0px 10px #00aaff;
+    margin: 0;
+    padding-right: 10px;
+    line-height: 7rem;
+    text-align: center;
+}
+
+.underline{
+    width: 2px;
+    height: 7rem;
+    background: #00aaff;
+}
+
+.sections .section:hover{
+    box-shadow: 0px 0px 10px rgb(255, 255, 255);
+}
+
+
+
+
+
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    .bg{
+        background-position-x: 50%;
+        background-position-y: bottom;
+        background-size: cover;
+    }
+    .heading{
+        font-size: 2rem;
+    }
+    .about{
+        font-size: 3rem;
+    }
+    .sections .section{
+        flex-direction: column;
+    }
+    
+    .sections .section3 .content .heading{
+        text-align: center;
+    }
+    .content{
+        width: 100%;
+        border: none !important;
+        align-items: center;
+    }
+    .sections .section2 .content{
+        align-items: center;
+    }
+    .section2 .heading{
+        text-align: center;
+    }
+    .image{
+        padding-bottom: 1rem;
+    }
+    .image img{
+        height: 15rem !important;
+        width: auto !important;
+    }
+    .section3 img{
+        height: 10rem !important;
+        margin-left: -100%;
+    }
+    .last-section{
+        border-bottom: none;
+    }
+    .underline{
+        display: none;
+    }
+    .head{
+        font-size: 2rem !important;
+        line-height: 2rem !important;
+        text-align: center !important;
+    }
+  }
