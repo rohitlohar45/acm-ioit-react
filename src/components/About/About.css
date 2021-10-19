@@ -155,10 +155,10 @@
     .section2 .heading{
         text-align: center;
     }
-    .image{
+    .about-body .image{
         padding-bottom: 1rem;
     }
-    .image img{
+    .about-body .image img{
         height: 15rem !important;
         width: auto !important;
     }

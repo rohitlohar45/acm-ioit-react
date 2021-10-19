@@ -19,7 +19,7 @@ const About1 = () => {
             <div className="sections py-5">
                 <Fade bottom>
                     <div className="section section1 py-5 px-4">
-                        <div className="image image1 d-flex align-items-center justify-content-center">
+                        <div className=" image1 d-flex align-items-center justify-content-center">
                             <img src={img} alt="ACM" />
                         </div>
                         <div className="line line1">
