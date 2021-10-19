@@ -4,9 +4,10 @@
     position: fixed;
     top: 0;
     left: 0;
+    z-index: 0;
     background: url('../../assets/about/bgcurvedark.svg') right no-repeat;
     background-size: 105vh 100vw;
-    display: none;
+    /* display: none; */
 }
 .about-body {
     width: 100%;
