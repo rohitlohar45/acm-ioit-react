@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/acm-ioit-react/static/css/main.350a1a3b.chunk.css",
-    "main.js": "/acm-ioit-react/static/js/main.c5c3d730.chunk.js",
-    "main.js.map": "/acm-ioit-react/static/js/main.c5c3d730.chunk.js.map",
+    "main.css": "/acm-ioit-react/static/css/main.b31fbadc.chunk.css",
+    "main.js": "/acm-ioit-react/static/js/main.85ff306a.chunk.js",
+    "main.js.map": "/acm-ioit-react/static/js/main.85ff306a.chunk.js.map",
     "runtime-main.js": "/acm-ioit-react/static/js/runtime-main.a1ee0668.js",
     "runtime-main.js.map": "/acm-ioit-react/static/js/runtime-main.a1ee0668.js.map",
     "static/css/2.c54e5117.chunk.css": "/acm-ioit-react/static/css/2.c54e5117.chunk.css",
-    "static/js/2.eb583dd1.chunk.js": "/acm-ioit-react/static/js/2.eb583dd1.chunk.js",
-    "static/js/2.eb583dd1.chunk.js.map": "/acm-ioit-react/static/js/2.eb583dd1.chunk.js.map",
+    "static/js/2.82719ad6.chunk.js": "/acm-ioit-react/static/js/2.82719ad6.chunk.js",
+    "static/js/2.82719ad6.chunk.js.map": "/acm-ioit-react/static/js/2.82719ad6.chunk.js.map",
     "index.html": "/acm-ioit-react/index.html",
     "static/css/2.c54e5117.chunk.css.map": "/acm-ioit-react/static/css/2.c54e5117.chunk.css.map",
-    "static/css/main.350a1a3b.chunk.css.map": "/acm-ioit-react/static/css/main.350a1a3b.chunk.css.map",
-    "static/js/2.eb583dd1.chunk.js.LICENSE.txt": "/acm-ioit-react/static/js/2.eb583dd1.chunk.js.LICENSE.txt",
+    "static/css/main.b31fbadc.chunk.css.map": "/acm-ioit-react/static/css/main.b31fbadc.chunk.css.map",
+    "static/js/2.82719ad6.chunk.js.LICENSE.txt": "/acm-ioit-react/static/js/2.82719ad6.chunk.js.LICENSE.txt",
     "static/media/Aditya.5c483c14.jpg": "/acm-ioit-react/static/media/Aditya.5c483c14.jpg",
     "static/media/Ankit.1e792dbe.jpg": "/acm-ioit-react/static/media/Ankit.1e792dbe.jpg",
     "static/media/Ashish.3e917aa5.jpg": "/acm-ioit-react/static/media/Ashish.3e917aa5.jpg",
@@ -19,6 +19,7 @@
     "static/media/Hrithik.3098d11c.jpg": "/acm-ioit-react/static/media/Hrithik.3098d11c.jpg",
     "static/media/Ninad.2ac1a9f2.jpg": "/acm-ioit-react/static/media/Ninad.2ac1a9f2.jpg",
     "static/media/Omkar.1a0bbb64.jpg": "/acm-ioit-react/static/media/Omkar.1a0bbb64.jpg",
+    "static/media/Rohit.2385785b.jpg": "/acm-ioit-react/static/media/Rohit.2385785b.jpg",
     "static/media/Sakhi.1beec2bf.jpg": "/acm-ioit-react/static/media/Sakhi.1beec2bf.jpg",
     "static/media/Sameer.047f303c.jpg": "/acm-ioit-react/static/media/Sameer.047f303c.jpg",
     "static/media/Sanyukta.08150704.jpg": "/acm-ioit-react/static/media/Sanyukta.08150704.jpg",
@@ -35,8 +36,8 @@
   "entrypoints": [
     "static/js/runtime-main.a1ee0668.js",
     "static/css/2.c54e5117.chunk.css",
-    "static/js/2.eb583dd1.chunk.js",
-    "static/css/main.350a1a3b.chunk.css",
-    "static/js/main.c5c3d730.chunk.js"
+    "static/js/2.82719ad6.chunk.js",
+    "static/css/main.b31fbadc.chunk.css",
+    "static/js/main.85ff306a.chunk.js"
   ]
 }
