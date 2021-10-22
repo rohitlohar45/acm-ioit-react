@@ -3,6 +3,7 @@ import Ashish from "../../../assets/team/web-team/Ashish.jpg"
 import Harshal from "../../../assets/team/web-team/Harshal.jpg"
 import Sakhi from "../../../assets/team/web-team/Sakhi.jpg"
 import Sushil from "../../../assets/team/web-team/Sushil.jpg"
+import Rohit from "../../../assets/team/web-team/Rohit.jpg"
 
 const teams = [
   {
@@ -44,7 +45,7 @@ const teams = [
     id: 6,
     name: "Rohit Divekar",
     role: "Web Developer",
-    image: Aditya,
+    image: Rohit,
     linkedinURL: "https://www.linkedin.com/in/aditya-more-a76b251b0/",
   },
 ];

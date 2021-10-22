@@ -1,17 +1,18 @@
 import React, { useState, useEffect } from 'react';
 import { NavLink } from 'react-router-dom';
-import { FaBars, FaTimes } from "react-icons/fa";
+import { FaTimes } from "react-icons/fa";
+import { RiMenu2Fill } from "react-icons/all"
 import MenuItems from "./MenuItems";
 import "./Navbar.css";
 // import acmLogo from '../../../assets/acm.png'
 import { anime } from 'react-anime';
-import linker from '../GlobalVars';
+// import linker from '../GlobalVars';
 
 const Navbar = (props) => {
 
     const [show, handleShow] = useState(false);
 
-    const [click, setClick] = useState();
+    const [click, setClick] = useState(false);
 
     const clickHandler = () => {
         setClick(!click);
@@ -40,14 +41,16 @@ const Navbar = (props) => {
     return (
         <nav className={`nav ${show && "nav_black"}`}>
             <div className="nav_center container">
-                <div className='logo-text'>
-                    ACM IOIT
-                </div>
-
+                <a href="/">
+                    <div className='logo-text'>
+                        ACM IOIT
+                    </div>
+                </a>
                 <ul className={click ? "nav_list active" : "nav_list"}>
-                    {MenuItems.map(({ id, title, cName }) => (
+
+                    {MenuItems.map(({ id, title, route, cName }) => (
                         <li key={id} className="nav_item">
-                            <NavLink to={`${linker}${title}`} className={cName}>{title}</NavLink>
+                            <NavLink onClick={clickHandler} to={route} className={cName}>{title}</NavLink>
                             {/* For official deployment, uncomment below */}
                             {/* <NavLink to={`/${title}`} className={cName}>{title}</NavLink> */}
                         </li>
@@ -55,7 +58,8 @@ const Navbar = (props) => {
                 </ul>
 
                 <div className="hamburger_icon" onClick={clickHandler}>
-                    {click ? <FaTimes /> : <FaBars />}
+                    {/* {click ? <FaTimes /> : <HiMenuAlt2 />} */}
+                    {click ? <FaTimes /> : <RiMenu2Fill />}
                 </div>
             </div>
         </nav>

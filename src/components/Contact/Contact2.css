@@ -134,7 +134,7 @@
     height:6%;
     margin-bottom: 2px;
     /* border : 2px solid var(--high-color); */
-    z-index: 1000;
+    z-index: 999;
     width:80%;
     /* text-align: center; */
     
