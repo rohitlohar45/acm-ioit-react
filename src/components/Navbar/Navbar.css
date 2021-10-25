@@ -8,7 +8,6 @@
 
 .nav {
     font-family: Jura, sans-serif;
-    /* padding: 4vh 0; */
     background-color: rgba(0, 0, 0, 0);
     /* background-color: black; */
     position: fixed;
@@ -18,13 +17,11 @@
     z-index: 1000;
     display: flex;
     justify-content: space-between;
-  /* background-color: #111 */
-
     transition-timing-function: ease-in;
     transition: all 0.5s;
 }
 
-.hamburger {
+.hamburger_icon {
     display: none;
 }
 
@@ -119,7 +116,7 @@ ul,li {
         color: white;
         font-size: 1.8rem;
         cursor: pointer;
-        /* padding-left: 420px; */
+        padding-left: 250px;
     }
 
     .logo {

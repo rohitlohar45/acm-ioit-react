@@ -1,8 +1,10 @@
 .contact-div {
-    color : '#000';
+    color: '#000';
     background-color: #00aaff;
     font-size: 15px;
-};
+}
+
+;
 
 @media screen and (max-width: 786px) {
     .map-container {
@@ -11,3 +13,6 @@
     }
 }
 
+.contact-form-div label {
+    color: black;
+}

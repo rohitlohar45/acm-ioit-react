@@ -8,10 +8,10 @@
 }
 
 .contact-divi {
-    color : '#00aaff';
+    color: '#00aaff';
     background-color: #000;
     font-size: 15px;
-};
+}
 
 @media screen and (max-width: 786px) {
     .map-container {
@@ -20,9 +20,10 @@
     }
 }
 
-.contacts{
-font-size: 20px;
+.contacts {
+    font-size: 20px;
 }
-.contactno{
+
+.contactno {
     background-color: #a9a9a921;
 }

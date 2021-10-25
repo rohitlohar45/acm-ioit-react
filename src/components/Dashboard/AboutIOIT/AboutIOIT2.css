@@ -3310,10 +3310,6 @@
     margin: 40px 0px;
 }
 
-.about-us .left-image {
-    text-align: center;
-}
-
 .main-green-button a {
     display: inline-block;
     background-color: #33ccc5;
@@ -3339,11 +3335,11 @@
     font-size: 40px !important;
     font-weight: bold !important;
     margin: 20px 0px;
-    color: #06740f;
+    color: #00aaff;
 }
 
 .about-us .about-img {
-    margin-top: 8%;
+    margin: 8% auto;
     width: 70%;
 }
 

@@ -9,8 +9,9 @@ import { anime } from 'react-anime';
 // import linker from '../GlobalVars';
 
 const Navbar = (props) => {
+  const [show, handleShow] = useState(false);
 
-    const [show, handleShow] = useState(false);
+  const [click, setClick] = useState();
 
     const [click, setClick] = useState(false);
 

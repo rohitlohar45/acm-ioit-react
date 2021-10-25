@@ -6,8 +6,8 @@ import AboutImage from "../../../assets/about.jpg";
 const AboutIOIT = () => {
   return (
     <>
-      <div id="about" className="about-us section">
-      <h6 className="aboutus">About Us</h6>
+      <div id="about" className="about-us section mt-5">
+        <h6 className="aboutus">About Us</h6>
         <div style={{ margin: "0px" }} className="container">
           <div className="row">
             <div className="col-lg-6">
@@ -51,10 +51,16 @@ const AboutIOIT = () => {
                   </div>
                 </div>
               </div>
-              <p style={{ fontWeight: "bold", textAlign: 'justify' }}>
-                <a rel="nofollow" href="https://ioit.acm.org" target="_parent">
-                  ACM IOIT <br />
+              <p style={{ fontWeight: "bold", textAlign: "justify" }}>
+                <a
+                  style={{ color: "#007bff" }}
+                  rel="nofollow"
+                  href="https://ioit.acm.org"
+                  target="_parent"
+                >
+                  ACM IOIT
                 </a>
+                <br />
                 The college has been a prime engineering institute of the city
                 for the past decade. The institute not only offers courses in
                 core-engineering branches but also in upcoming IT trends such as
@@ -68,7 +74,7 @@ const AboutIOIT = () => {
                 education.
               </p>
               <div className="main-green-button">
-                <a href="https://ioit.acm.org">Discover company</a>
+                <a href="/About/">More About Us</a>
               </div>
             </div>
           </div>

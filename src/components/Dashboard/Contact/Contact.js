@@ -81,7 +81,7 @@ return (
       <div className = 'my-5 '><h1 className = 'text-center font-weight-bolder text-dark'>Contact Us</h1></div>
         <div className = 'row'>
         <div className = 'col-md-6 col-10 mx-auto'>
-          <div className = 'mb-3'>
+          <div className = 'mb-3 contact-form-div'>
             <form onSubmit = {formSubmit}>
               <div className = 'mb-3'>
                 <label style={labelStyle} htmlFor = 'exampleFormControlInput1' className = 'form-label'>Full Name</label>
