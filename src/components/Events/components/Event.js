@@ -12,19 +12,19 @@ function Event(props) {
                 </div>
                 <div className="imgBox">
                     <img src={props.link} alt="loading"></img>
-                    <imghover className="txt">
+                    {/* <imghover className="txt">
                         <h2>{props.title}</h2>
                         <p>{props.descShort}</p>
-                    </imghover>
+                    </imghover> */}
                 </div>
             </div> :
             <div className="event-body">
                 <div className="imgBox">
                     <img src={props.link} alt="loading"></img>
-                    <imghover className="txt">
+                    {/* <imghover className="txt">
                         <h2>{props.title}</h2>
                         <p>{props.descShort}</p>
-                    </imghover>
+                    </imghover> */}
                 </div>
                 <div className="event">
                     <h2 className="title">{props.title} :- {props.date} [{props.timing}]</h2>

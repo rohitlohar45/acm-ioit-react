@@ -1,9 +1,9 @@
 import React from "react";
-import { Button } from "react-bootstrap";
+// import { Button } from "react-bootstrap";
 
-const style = {
-  color: "white",
-};
+// const style = {
+//   color: "white",
+// };
 
 function UpcomingEvent(props) {
   return (
@@ -14,10 +14,10 @@ function UpcomingEvent(props) {
       <div className="event-body2">
         <div className="imgBox">
           <img src={props.link} alt="loading"></img>
-          <imghover className="txt">
+          {/* <imghover className="txt">
             <h2 style={style}>{props.title}</h2>
             <p style={style}>{props.descShort}</p>
-          </imghover>
+          </imghover> */}
         </div>
         <div className="event">
           <p className="title">{props.title}</p>
@@ -32,7 +32,7 @@ function UpcomingEvent(props) {
           {/* <Button size="lg" href={props.registerLink}>
             Register Now
           </Button> */}
-          <button class="btn third">Register Now</button>
+          <button className="btn third">Register Now</button>
         </div>
       </div>
     </div>

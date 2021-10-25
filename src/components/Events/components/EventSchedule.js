@@ -98,6 +98,7 @@ const EventSchedule = (props) => {
       >
         <li className="nav-item">
           <a
+            href="#0"
             className={`${active.taball} animated-button victoria-two`}
             id="day-all-tab"
             data-toggle="tab"
@@ -111,6 +112,7 @@ const EventSchedule = (props) => {
         </li>
         <li className="nav-item">
           <a
+            href="#0"
             className={`${active.tab1} animated-button victoria-two`}
             id="day-1-tab"
             data-toggle="tab"
@@ -124,6 +126,7 @@ const EventSchedule = (props) => {
         </li>
         <li className="nav-item">
           <a
+            href="#0"
             className={`${active.tab2} animated-button victoria-two`}
             id="day-2-tab"
             data-toggle="tab"
@@ -137,6 +140,7 @@ const EventSchedule = (props) => {
         </li>
         <li className="nav-item">
           <a
+            href="#0"
             className={`${active.tab3} animated-button victoria-two`}
             id="day-3-tab"
             data-toggle="tab"

@@ -19,7 +19,7 @@ const DataFunc = (data) => {
           <div className={`${data.feature}-number number`}>
             <h6>0{data.id}</h6>
           </div>
-          <img src={data.link} />
+          <img src={data.link} alt="" />
           <h4>{data.title}</h4>
           <div className="line-dec"></div>
           <p>{data.descShort}</p>
