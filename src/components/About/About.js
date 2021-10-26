@@ -4,7 +4,7 @@ import Fade from 'react-reveal/Fade'
 import 'bootstrap/dist/css/bootstrap.min.css'
 import './About.css';
 
-import img from "../../assets/about/svg5.svg"
+import img from "../../assets/about/acm.svg"
 import img1 from "../../assets/about/svg3.svg"
 import img2 from "../../assets/about/svg2.svg"
 
@@ -13,12 +13,12 @@ const About1 = () => {
     return (
         <div className="about-body">
             <div className="bg"></div>
-            <p className="about">
+            <p className="about mt-4">
                 <span className="ab">Ab</span>out
             </p>
-            <div className="sections py-5">
+            <div className="sections py-md-5 py-sm-1">
                 <Fade bottom>
-                    <div className="section section1 py-5 px-4">
+                    <div className="section section1 py-md-5 px-md-4">
                         <div className=" image1 image d-flex align-items-center justify-content-center">
                             <img src={img} alt="ACM" />
                         </div>
@@ -36,9 +36,9 @@ const About1 = () => {
                             </p>
                         </div>
                     </div>  
-                </Fade> <br/>
+                </Fade> <br class="line-break"/>
                 <Fade bottom>
-                    <div className="section section2 py-5 px-4">
+                    <div className="section section2 py-md-5 px-md-4">
                         <div className="image image1 d-flex align-items-center justify-content-center pe-3">
                             <img src={img1} alt="ACM IOIT" style={{height:'100%', width:'100%'}} />
                         </div>
@@ -54,10 +54,10 @@ const About1 = () => {
                             </p>
                         </div>
                     </div>  
-                </Fade> <br/>
+                </Fade> <br class="line-break"/>
                 <Fade bottom>
-                    <div className="section section3 py-5 px-4">
-                        <div className="image image1 d-flex align-items-center">
+                    <div className="section section3 py-md-5 px-md-4">
+                        <div className="image image1 d-flex align-items-center justify-content-center">
                             <img src={img2} alt="ACM" style={{height:'100%', width:'100%'}}/>
                         </div>
                         <div className="line line1">

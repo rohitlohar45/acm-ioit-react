@@ -78,7 +78,7 @@ return (
       </div> */}
     </Col>
     <Col sm={12} lg={7} md={7} xl={7}>
-      <div className = 'my-5 '><h1 className = 'text-center font-weight-bolder text-dark'>Contact Us</h1></div>
+      <div className = 'my-5 '><h1 className = 'text-center font-weight-bolder text-dark jura-font' style={{fontSize:'2rem'}}>Contact Us</h1></div>
         <div className = 'row'>
         <div className = 'col-md-6 col-10 mx-auto'>
           <div className = 'mb-3 contact-form-div'>

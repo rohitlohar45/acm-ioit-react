@@ -5,7 +5,8 @@
     /* background-color: #002030; */
     background-color: #121a1d;
     padding: 10vh 6vw;
-    color: #00aaff;
+    color: #00aaff !important;
+    text-transform: capitalize;
     font-weight: 500;
     font-size: 3.2vh;
     /* width: 100%;
@@ -22,6 +23,12 @@
     margin: auto;
     flex-direction: column;
     flex-wrap: wrap;
+}
+
+.ourTeam{
+    color: #00aaff !important;
+    text-transform: uppercase;
+    font-family: Jura,sans-serif;
 }
 
 @media (max-width: 720px){

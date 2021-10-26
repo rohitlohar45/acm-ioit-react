@@ -12,7 +12,7 @@ const Team = () => {
     return (
         <>
             <div className="team-body">
-                <h1>Our Team</h1>
+                <h1 className="ourTeam">Our Team</h1>
 
                 <TeamCard2 src={Aditya} name="Meenakshi Thalor" role="Faculty Guide" />
 

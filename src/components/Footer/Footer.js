@@ -9,7 +9,7 @@ import WebTeamCard2 from "./webTeam/WebTeamCard2";
 Modal.setAppElement("#root");
 const Footer = () => {
   const textStyle = {
-    fontWeight: "bold",
+    fontWeight: "bold"
   };
 
   const [modalIsOpen, setModalIsOpen] = useState(false);
@@ -111,7 +111,9 @@ const Footer = () => {
       </footer>
 
       <div className="afterFooter">
-        <p>Developed by AISSMS IOIT ACM Student chapter</p>
+        <p className="footer-text">Developed by AISSMS IOIT ACM Student chapter</p>
+        
+
         <Button onClick={() => setModalIsOpen(true)}>WebTeam</Button>
         <Modal
           isOpen={modalIsOpen}

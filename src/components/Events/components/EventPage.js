@@ -12,7 +12,7 @@ const EventPage = () => {
   const description = data.descLong.split(". ");
   return (
     <>
-      <div className="py-24">
+      <div className="py-24 dark-bg">
         <div className="event-heading">
           <svg xmlns="http://www.w3.org/2000/svg">
             <filter id="motion-blur-filter" filterUnits="userSpaceOnUse">
@@ -30,7 +30,7 @@ const EventPage = () => {
           </div>
           <div className="lg:col-span-6">
             <div>
-              <h1 className="mb-6">{data.title}</h1>
+              <h1 className="mb-6 text-white">{data.title}</h1>
               <ul className="list mb-7 space-y-2">
                 {description.map((desc) => {
                   return desc === "" ? (
@@ -49,7 +49,7 @@ const EventPage = () => {
               >
                 Register
               </a>
-              <a className="btn-outline-reg" href="article.html">
+              <a className="btn-outline-reg text-white" href="article.html">
                 Read More
               </a>
             </div>

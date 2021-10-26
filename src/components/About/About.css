@@ -8,6 +8,7 @@
     background: url('../../assets/about/bgcurvedark.svg') right no-repeat;
     background-size: 105vh 100vw;
     /* display: none; */
+    opacity: .3;
 }
 .about-body {
     width: 100%;
@@ -23,7 +24,8 @@
 
 
 .about{
-    font-size: 5rem;
+    font-size: 3rem;
+    color: #fff!important;
 }
 .ab{
     text-decoration-color: #00aaff !important;
@@ -41,6 +43,7 @@
     flex-direction: column;
     gap: 5rem;
     scroll-snap-type: y mandatory;
+    padding-top: 5rem !important;
 }
 
 .sections .section{
@@ -48,12 +51,17 @@
     min-height: calc(100%/3);
     display: flex;
     align-items: center;
-    background: #333;
+    background: #0e0e0e;
     color: #fff;
-    box-shadow: 0px 0px 5px rgb(255, 255, 255);
+    box-shadow: 0px 0px 5px #343434;
     border-radius: 10px;
     scroll-snap-align: start;
     transition: all .3s;
+}
+
+.sections .section:hover{
+    box-shadow: 0px 0px 8px #343434;
+    cursor: pointer;
 }
 
 
@@ -88,6 +96,7 @@
 .heading{
     font-size: 2.8rem;
     font-weight: bold;
+    font-family: Jura,sans-serif;
 }
 
 .line{
@@ -116,9 +125,7 @@
     background: #00aaff;
 }
 
-.sections .section:hover{
-    box-shadow: 0px 0px 10px rgb(255, 255, 255);
-}
+
 
 
 
@@ -136,6 +143,9 @@
     }
     .about{
         font-size: 3rem;
+    }
+    .image{
+        width: 100%;
     }
     .sections .section{
         flex-direction: column;
@@ -162,9 +172,8 @@
         height: 15rem !important;
         width: auto !important;
     }
-    .section3 img{
-        height: 10rem !important;
-        margin-left: -100%;
+    .about-body .section.section3 img{
+        height: 12rem !important;
     }
     .last-section{
         border-bottom: none;
@@ -176,5 +185,8 @@
         font-size: 2rem !important;
         line-height: 2rem !important;
         text-align: center !important;
+    }
+    .line-break{
+        display: none;
     }
   }

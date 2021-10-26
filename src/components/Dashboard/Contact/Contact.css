@@ -4,7 +4,9 @@
     font-size: 15px;
 }
 
-;
+.jura-font{
+    font-family: Jura,sans-serif;
+}
 
 @media screen and (max-width: 786px) {
     .map-container {
