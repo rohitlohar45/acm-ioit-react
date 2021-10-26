@@ -171,6 +171,8 @@ img {
 .webTeam-body h1 {
   margin-bottom: 1.5rem;
   margin-top: -2rem;
+  color: #fff !important;
+  font-size: 1.2rem;
 }
 
 .footer-text{

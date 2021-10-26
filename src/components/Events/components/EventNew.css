@@ -1,7 +1,7 @@
-@import url("https://fonts.googleapis.com/css?family=Poppins:400,500,600,700,800");
+/* @import url("https://fonts.googleapis.com/css?family=Poppins:400,500,600,700,800"); */
 
 body {
-    font-family: "Poppins", sans-serif;
+    /* font-family: "Poppins", sans-serif; */
     font-weight: normal;
     font-style: normal;
     color: #777777;
@@ -41,8 +41,8 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: "Poppins", sans-serif;
-    font-weight: 600;
+    /* font-family: "Poppins", sans-serif; */
+    font-weight: 500;
     color: #1b273d;
     margin: 0px;
 }
@@ -116,12 +116,12 @@ p {
     vertical-align: bottom;
 }
 
-.about-content .date span {
+/* .about-content .date span {
     color: #1863ff;
     position: relative;
-}
+} */
 
-.about-content .date span::before {
+/* .about-content .date span::before {
     position: absolute;
     content: '';
     width: 30px;
@@ -129,7 +129,7 @@ p {
     border: 6px solid rgba(24, 99, 255, 0.18);
     top: -2px;
     left: -4px;
-}
+} */
 
 .header {
     background-color: #002030;

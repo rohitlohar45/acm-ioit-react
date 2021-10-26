@@ -8,14 +8,15 @@ import Omkar from "../../assets/team/Omkar.jpg"
 import Hrithik from "../../assets/team/Hrithik.jpg"
 import Shreyas from "../../assets/team/Shreyas.jpg"
 import Ninad from "../../assets/team/Ninad.jpg"
+import Shivprasad from "../../assets/team/Shivprasad.jpg"
 
 const teams = [
     {
         id: 1,
-        name: 'Allur Shivprasad',
+        name: 'A. Shivprasad Rao',
         role: 'Chair',
-        image: Aditya,
-        linkedinURL: "https://www.linkedin.com/in/aditya-more-a76b251b0/"
+        image: Shivprasad,
+        linkedinURL: "https://www.linkedin.com/in/shivprasad-rao-allur-bb5568154/"
     },
     {
         id: 2,
@@ -55,7 +56,7 @@ const teams = [
     {
         id: 7,
         name: 'Aditya More',
-        role: 'Webmaster',
+        role: 'WebMaster',
         image: Aditya,
         linkedinURL: "https://www.linkedin.com/in/aditya-more-a76b251b0/"
     },

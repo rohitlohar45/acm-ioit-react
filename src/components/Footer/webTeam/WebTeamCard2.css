@@ -7,7 +7,6 @@
     justify-content: space-evenly;
     align-items: center;
     flex-wrap: wrap;
-    
 }
 
 .team-container{
@@ -102,6 +101,7 @@
     color: #4e5052;
 }
 
+
 .team-container .social{
     width: 100%;
     padding: 0;
@@ -140,5 +140,9 @@
 
         .team-container .image img{
             padding-top: 0;
+        }
+
+        .team-container .info span{
+            font-size: 1.4rem;
         }
 }

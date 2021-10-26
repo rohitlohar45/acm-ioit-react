@@ -29,7 +29,7 @@ function UpcomingEvent(props) {
           <p className="title">{props.date}</p>
           <p className="title">{props.timing}</p>
           <p className="event-info">{props.descLong}</p>
-          {/* <Button size="lg" href={props.registerLink}>
+          {/* <Button style={style} size="lg" href={props.registerLink}>
             Register Now
           </Button> */}
           <button className="btn third">Register Now</button>
