@@ -85,6 +85,7 @@ section {
 
 .digital-library-head {
     background-color: #00aaff;
+    color: #111 !important;
     font-size: 3.8vh;
     text-align: center;
     padding-top: 2vh;
