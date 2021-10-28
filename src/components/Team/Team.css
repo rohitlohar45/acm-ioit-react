@@ -25,6 +25,16 @@
     flex-wrap: wrap;
 }
 
+.team{
+    font-size: 3rem;
+    color: #fff!important;
+    margin: 2rem !important;
+}
+.ab{
+    text-decoration-color: #00aaff !important;
+    text-decoration: underline;
+}
+
 .ourTeam{
     color: #00aaff !important;
     text-transform: uppercase;

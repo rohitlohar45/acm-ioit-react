@@ -13,7 +13,7 @@ const TeamCard2 = ({ src, name, role }) => {
                 <span>{role}</span>
             </div>
             <div className="linkedin">
-                <a href="https://www.linkedin.com/in/aditya-more-a76b251b0/"><LinkedIn /></a>
+                <a href="https://in.linkedin.com/in/meenakshi-thalor-03937840"><LinkedIn /></a>
             </div>
         </div>
     )

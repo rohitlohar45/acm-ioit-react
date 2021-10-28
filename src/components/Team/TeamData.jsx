@@ -9,6 +9,7 @@ import Hrithik from "../../assets/team/Hrithik.jpg"
 import Shreyas from "../../assets/team/Shreyas.jpg"
 import Ninad from "../../assets/team/Ninad.jpg"
 import Shivprasad from "../../assets/team/Shivprasad.jpg"
+import Abhishek from "../../assets/team/Abhishek.jpg"
 
 const teams = [
     {
@@ -77,9 +78,9 @@ const teams = [
     {
         id: 10,
         name: 'Abhishek Chirme',
-        role: 'Media Head',
-        image: Shreyas,
-        linkedinURL: "https://www.linkedin.com/in/aditya-more-a76b251b0/"
+        role: 'Social Media Manager',
+        image: Abhishek,
+        linkedinURL: "https://www.linkedin.com/in/abhishek-chirme-a94b49198/"
     },
     {
         id: 11,

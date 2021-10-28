@@ -46,7 +46,7 @@ const teams = [
     name: "Rohit Divekar",
     role: "Web Developer",
     image: Rohit,
-    linkedinURL: "https://www.linkedin.com/in/aditya-more-a76b251b0/",
+    linkedinURL: "https://www.linkedin.com/in/rohit-divekar-3560a9211/",
   },
 ];
 
