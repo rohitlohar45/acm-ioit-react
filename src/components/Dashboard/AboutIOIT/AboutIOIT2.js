@@ -1,6 +1,5 @@
 import React from "react";
 import "./AboutIOIT2.css";
-import "./Animation.js";
 import AboutImage from "../../../assets/about.jpg";
 
 const AboutIOIT = () => {

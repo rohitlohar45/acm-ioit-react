@@ -1,8 +1,6 @@
 import React, { useState } from "react";
 // import "./owl";
 import "./News3.css";
-import "../AboutIOIT/AboutIOIT2.css";
-import "../AboutIOIT/Animation";
 import Data from "../Events/EventDesc";
 import Slider from "react-slick";
 

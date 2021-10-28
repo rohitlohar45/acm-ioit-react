@@ -6,7 +6,10 @@ const TabPanel = (id) => {
       <div className="event-content">
         <div className="single-event d-md-flex">
           <div className="event-image">
-            <img src="https://i.ibb.co/nBWdDQL/ACM-Game-of-theory.jpg" alt="Event" />
+            <img
+              src="https://i.ibb.co/nBWdDQL/ACM-Game-of-theory.jpg"
+              alt="Event"
+            />
           </div>
           <div className="event-content media-body">
             <h4 className="event-title">
@@ -28,7 +31,10 @@ const TabPanel = (id) => {
 
         <div className="single-event d-md-flex">
           <div className="event-image">
-            <img src="https://i.ibb.co/nBWdDQL/ACM-Game-of-theory.jpg" alt="Event" />
+            <img
+              src="https://i.ibb.co/nBWdDQL/ACM-Game-of-theory.jpg"
+              alt="Event"
+            />
           </div>
           <div className="event-content media-body">
             <h4 className="event-title">15 FREE PRODUCTIVE DESIGN TOOLS</h4>
@@ -48,7 +54,10 @@ const TabPanel = (id) => {
 
         <div className="single-event d-md-flex">
           <div className="event-image">
-            <img src="https://i.ibb.co/nBWdDQL/ACM-Game-of-theory.jpg" alt="Event" />
+            <img
+              src="https://i.ibb.co/nBWdDQL/ACM-Game-of-theory.jpg"
+              alt="Event"
+            />
           </div>
           <div className="event-content media-body">
             <h4 className="event-title">GETTING STARTED WITH SKETCHAPP</h4>
@@ -98,7 +107,6 @@ const EventSchedule = (props) => {
       >
         <li className="nav-item">
           <a
-            href="#0"
             className={`${active.taball} animated-button victoria-two`}
             id="day-all-tab"
             data-toggle="tab"
@@ -112,7 +120,6 @@ const EventSchedule = (props) => {
         </li>
         <li className="nav-item">
           <a
-            href="#0"
             className={`${active.tab1} animated-button victoria-two`}
             id="day-1-tab"
             data-toggle="tab"
@@ -126,7 +133,6 @@ const EventSchedule = (props) => {
         </li>
         <li className="nav-item">
           <a
-            href="#0"
             className={`${active.tab2} animated-button victoria-two`}
             id="day-2-tab"
             data-toggle="tab"
@@ -140,7 +146,6 @@ const EventSchedule = (props) => {
         </li>
         <li className="nav-item">
           <a
-            href="#0"
             className={`${active.tab3} animated-button victoria-two`}
             id="day-3-tab"
             data-toggle="tab"
