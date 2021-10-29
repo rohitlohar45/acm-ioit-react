@@ -1,0 +1,29 @@
+.bg-dark-blue{
+    background: #121a1d;
+    color: #fff;;
+}
+
+.light-border-bottom{
+    border-bottom: 1px solid #444444;
+}
+
+.bg-card{
+    background: #131f24 !important;
+    color: #fff !important;
+}
+
+.text-blue{
+    color: #1863ff;
+}
+
+.box-shadow{
+    box-shadow: 3px 3px 3px #00000052, -3px -3px 3px #121212a8 !important;
+}
+
+
+@media only screen and (min-width: 768px)  {
+    .full-height{
+        height: 100vh;
+    }
+    
+}

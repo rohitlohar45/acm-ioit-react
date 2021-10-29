@@ -28,7 +28,7 @@
 .team{
     font-size: 3rem;
     color: #fff!important;
-    margin: 2rem !important;
+    /* margin: 2rem !important; */
 }
 .ab{
     text-decoration-color: #00aaff !important;
@@ -39,6 +39,17 @@
     color: #00aaff !important;
     text-transform: uppercase;
     font-family: Jura,sans-serif;
+}
+
+
+.team{
+    font-size: 3rem;
+    color: #fff!important;
+    /* margin: 2rem !important; */
+}
+.ab{
+    text-decoration-color: #00aaff !important;
+    text-decoration: underline;
 }
 
 @media (max-width: 720px){

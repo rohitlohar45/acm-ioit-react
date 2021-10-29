@@ -7,7 +7,7 @@ import Dashboard from "./components/Dashboard/Dashboard";
 import Navbar from "./components/Navbar/Navbar";
 import Footer from "./components/Footer/Footer";
 import Team from "./components/Team/Team";
-import Membership from "./components/Membership/Membership";
+import Membership from "./components/Membership/Membership.jsx";
 import Events from "./components/Events/Events";
 import Contact from "./components/Contact/Contact2";
 import About from "./components/About/About";

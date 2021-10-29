@@ -84,7 +84,7 @@ const News = () => {
         <em> Students</em>
       </h2>
       <div id="features" className="features section">
-        <div style={{ margin: "0px", padding: "0px" }} className="container">
+        <div className="container">
           <div className="row">
             <div className="col-lg-12">
               <div className="features-content">{slider}</div>

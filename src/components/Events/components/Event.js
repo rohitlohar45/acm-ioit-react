@@ -4,7 +4,7 @@ import './Event.css';
 function Event(props) {
 
     return (
-        <div>{(props.id) % 2 === 0 ?
+        <div className="">{(props.id) % 2 === 0 ?
             <div className="event-body">
                 <div className="event">
                     <h2 className="title">{props.title} :- {props.date} [{props.timing}]</h2>

@@ -1,26 +1,27 @@
 import React from 'react';
 import Fade from 'react-reveal/Fade'
 import "./Membership.css"
+import '../../App.css';
 import 'bootstrap/dist/css/bootstrap.min.css'
 
 import mem from "../../assets/mem5.svg"
-import mem1 from "../../assets/mem1.svg"
+import mem1 from "../../assets/membership/knowledge.svg"
 import mem2 from "../../assets/mem2.svg"
 import mem3 from "../../assets/mem4.svg"
 import mem4 from "../../assets/mem6.png"
-import mem5 from "../../assets/mem8.png"
+import mem5 from "../../assets/membership/newsletter.svg"
 
 const Membership = () => {
     return (
         <div>
-            <div className="membership-body">
+            <div className="membership-body bg-dark-blue">
                 {/* <div className="bg"></div> */}
                 <p className="member">
                     <span className="ab">Mem</span>bership
                 </p>
-                <div className="sections py-5">
+                <div className="sections py-5"> 
                     <Fade top>
-                        <div className="section section1 py-5 px-4">
+                        <div className="section section1 py-5 px-4 blue-bg-card">
                             <div className="line line1">
                             </div>
                             <div className="content text-justify p-2">
@@ -38,11 +39,11 @@ const Membership = () => {
 
                 </div>
             </div>
-            <div className="cards1">
+            <div className="cards1 bg-dark-blue">
                 <div className="containerofmembership">
                     <Fade bottom>
-                        <div className="cardm">
-                            <div className="imgboxm" data-text="Innovate">
+                        <div className="cardm box-shadow">
+                            <div className="imgboxm blue-bg-card" data-text="Innovate">
                                 <img src={mem3} alt="" />
                             </div>
                             <div className="contentcard">
@@ -50,8 +51,8 @@ const Membership = () => {
                                 <p>Access to resources for lifelong learning, including online courses,popular certifications and much more</p>
                             </div>
                         </div>
-                        <div className="cardm">
-                            <div className="imgboxm">
+                        <div className="cardm box-shadow">
+                            <div className="imgboxm blue-bg-card">
                                 <img src={mem1} alt="" srcset="" />
                             </div>
                             <div className="contentcard">
@@ -61,8 +62,8 @@ const Membership = () => {
                         </div>
                     </Fade>
                     <Fade bottom>
-                        <div className="cardm">
-                            <div className="imgboxm">
+                        <div className="cardm box-shadow">
+                            <div className="imgboxm blue-bg-card">
                                 <img src={mem2} alt="" srcset="" />
                             </div>
                             <div className="contentcard">
@@ -70,8 +71,8 @@ const Membership = () => {
                                 <p>Ability to search DL, access bibliographic citations, view article abstracts.</p>
                             </div>
                         </div>
-                        <div className="cardm">
-                            <div className="imgboxm">
+                        <div className="cardm box-shadow">
+                            <div className="imgboxm blue-bg-card">
                                 <img src={mem} alt="" srcset="" />
                             </div>
                             <div className="contentcard">
@@ -81,8 +82,8 @@ const Membership = () => {
                         </div>
                     </Fade>
                     <Fade bottom>
-                        <div className="cardm">
-                            <div className="imgboxm">
+                        <div className="cardm box-shadow">
+                            <div className="imgboxm blue-bg-card">
                                 <img src={mem4} alt="" srcset="" />
                             </div>
                             <div className="contentcard">
@@ -90,8 +91,8 @@ const Membership = () => {
                                 <p>Connect with various industrial connoissuers and techies.</p>
                             </div>
                         </div>
-                        <div className="cardm">
-                            <div className="imgboxm">
+                        <div className="cardm box-shadow">
+                            <div className="imgboxm blue-bg-card">
                                 <img src={mem5} alt="" srcset="" />
                             </div>
                             <div className="contentcard">

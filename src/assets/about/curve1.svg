@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="500" height="500" xml:space="preserve" style=""><rect id="backgroundrect" width="100%" height="100%" x="0" y="0" fill="none" stroke="none"/>
+<desc>Created with Fabric.js 4.6.0</desc>
+<defs>
+</defs>
+
+<g class="currentLayer" style=""><title>Layer 1</title><g id="xWpbNNkXTCfXzG_8N6CQn" class="selected" fill="#1a343d" fill-opacity="1">
+<filter id="SVGID_11" y="-22%" height="144%" x="-23%" width="146%" transform="matrix(1,0,0,1.04,249.78,250) " stroke-width="0">
+	<feGaussianBlur in="SourceAlpha" stdDeviation="5"/>
+	<feOffset dx="-3" dy="0" result="oBlur"/>
+	<feFlood flood-color="rgb(35,35,35)" flood-opacity="1"/>
+	<feComposite in2="oBlur" operator="in"/>
+	<feMerge>
+		<feMergeNode/>
+		<feMergeNode in="SourceGraphic"/>
+	</feMerge>
+</filter>
+<path style="stroke: rgb(0, 0, 0); stroke-width: 0; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill-rule: nonzero; opacity: 1; filter: url(&quot;#SVGID_11&quot;);" vector-effect="non-scaling-stroke" d="M0.14710999999999785,500.4552128 C0.14710999999999785,500.4552128 222.98118,478.311304 258.22347,240.07341839999998 C293.46576000000005,1.8355327999999815 499.41290000000004,-0.4552128000000266 499.41290000000004,-0.4552128000000266 L499.41290000000004,500.45521279999997 z" stroke-linecap="round" stroke-width="0" id="svg_1" fill="#1a343d" fill-opacity="1"/>
+</g></g></svg>

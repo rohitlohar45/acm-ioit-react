@@ -48,3 +48,25 @@ body, html, #root {
   border-radius: 15%;
   opacity: 0.75;
 }
+
+.bg-dark-blue{
+  background: #121a1d !important;
+  color: #fff;;
+}
+
+.text-blue{
+  color: #1863ff;
+}
+
+.box-shadow{
+  box-shadow: 3px 3px 3px #00000052, -3px -3px 3px #121212a8 !important;
+}
+
+.dark-card-bg{
+  background: #0e0e0e !important;
+}
+
+.blue-bg-card{
+  background: #131f24 !important;
+  color: #fff !important;
+}

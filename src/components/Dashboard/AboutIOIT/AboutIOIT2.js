@@ -1,6 +1,6 @@
 import React from "react";
 import "./AboutIOIT2.css";
-import AboutImage from "../../../assets/about.jpg";
+import AboutImage from "../../../assets/acm_nobg.png";
 
 const AboutIOIT = () => {
   return (
@@ -11,11 +11,11 @@ const AboutIOIT = () => {
           <div className="row">
             <div className="col-lg-6">
               <div
-                className="left-image wow fadeInLeft"
+                className="left-image wow fadeInLeft about-img"
                 data-wow-duration="1s"
                 data-wow-delay="0.5s"
               >
-                <img className="about-img" src={AboutImage} alt="" />
+                <img className="" src={AboutImage} alt="" />
               </div>
             </div>
             <div

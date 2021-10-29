@@ -13,6 +13,8 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
+import './Events.css';
+
 function createEvent(details) {
   return (
     <>
@@ -91,7 +93,7 @@ const Events = () => {
   window.onload = () => responsive(media);
 
   return (
-    <div>
+    <div className="bg-dark-blue">
       {Upcoming.map(createUpcomingEvent)}
       <EventSchedule />
       <div className="events-slider">

@@ -1,9 +1,10 @@
 import React from "react";
 import "./EventNew.css";
+import '../Events.css';
 
 const leftImage = (props) => {
   return (
-    <div className="about-area">
+    <div className="about-area bg-card box-shadow">
       <div style={{ margin: "0px" }} className="container">
         <div className="row align-items-center mt-5">
           <div className="col-lg-12 div-box">
@@ -14,11 +15,11 @@ const leftImage = (props) => {
           <div className="col-lg-12 div-box">
             <div className="about-content wow" data-wow-duration="1s">
               <div className="section-title">
-                <h2 className="title">{props.title}</h2>
+                <h2 className="title text-blue">{props.title}</h2>
               </div>
 
-              <p className="text">{props.descShort}</p>
-              <p className="date">
+              <p className="text text-white">{props.descShort}</p>
+              <p className="text">
                 <span>{props.date}</span> [{props.timing}]
               </p>
             </div>

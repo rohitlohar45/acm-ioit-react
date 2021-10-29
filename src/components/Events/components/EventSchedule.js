@@ -1,10 +1,12 @@
 import { useState } from "react";
 
+import '../Events.css';
+
 const TabPanel = (id) => {
   return (
     <div className="tab-pane fade show active" id={`day-${id}`} role="tabpanel">
       <div className="event-content">
-        <div className="single-event d-md-flex">
+        <div className="single-event d-md-flex bg-card box-shadow">
           <div className="event-image">
             <img
               src="https://i.ibb.co/nBWdDQL/ACM-Game-of-theory.jpg"
@@ -12,10 +14,10 @@ const TabPanel = (id) => {
             />
           </div>
           <div className="event-content media-body">
-            <h4 className="event-title">
+            <h4 className="event-title text-blue">
               Web Design Principle and Best Practise {id}
             </h4>
-            <p className="text">
+            <p className="text text-white">
               Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet
               minima dolores rerum maiores qui at commodi quas, reprehenderit
               eius consectetur quae magni molestias veniam, provident illum
@@ -29,7 +31,7 @@ const TabPanel = (id) => {
           </div>
         </div>
 
-        <div className="single-event d-md-flex">
+        <div className="single-event d-md-flex bg-card box-shadow">
           <div className="event-image">
             <img
               src="https://i.ibb.co/nBWdDQL/ACM-Game-of-theory.jpg"
@@ -37,8 +39,8 @@ const TabPanel = (id) => {
             />
           </div>
           <div className="event-content media-body">
-            <h4 className="event-title">15 FREE PRODUCTIVE DESIGN TOOLS</h4>
-            <p className="text">
+            <h4 className="event-title text-blue">15 FREE PRODUCTIVE DESIGN TOOLS</h4>
+            <p className="text text-white">
               Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet
               minima dolores rerum maiores qui at commodi quas, reprehenderit
               eius consectetur quae magni molestias veniam, provident illum
@@ -52,7 +54,7 @@ const TabPanel = (id) => {
           </div>
         </div>
 
-        <div className="single-event d-md-flex">
+        <div className="single-event d-md-flex bg-card box-shadow">
           <div className="event-image">
             <img
               src="https://i.ibb.co/nBWdDQL/ACM-Game-of-theory.jpg"
@@ -60,8 +62,8 @@ const TabPanel = (id) => {
             />
           </div>
           <div className="event-content media-body">
-            <h4 className="event-title">GETTING STARTED WITH SKETCHAPP</h4>
-            <p className="text">
+            <h4 className="event-title text-blue">GETTING STARTED WITH SKETCHAPP</h4>
+            <p className="text text-white">
               Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet
               minima dolores rerum maiores qui at commodi quas, reprehenderit
               eius consectetur quae magni molestias veniam, provident illum
@@ -114,8 +116,8 @@ const EventSchedule = (props) => {
             role="tab"
             aria-controls="day-all"
           >
-            <h4 className="nav-title">All</h4>
-            <span>28 July, 2022</span>
+            <h4 className="nav-title text-white">All</h4>
+            <span className="text-white">28 July, 2022</span>
           </a>
         </li>
         <li className="nav-item">
@@ -127,8 +129,8 @@ const EventSchedule = (props) => {
             role="tab"
             aria-controls="day-1"
           >
-            <h4 className="nav-title">Day 1</h4>
-            <span>28 July, 2022</span>
+            <h4 className="nav-title text-white">Day 1</h4>
+            <span className="text-white">28 July, 2022</span>
           </a>
         </li>
         <li className="nav-item">
@@ -140,8 +142,8 @@ const EventSchedule = (props) => {
             role="tab"
             aria-controls="day-2"
           >
-            <h4 className="nav-title">Day 2</h4>
-            <span>28 July, 2022</span>
+            <h4 className="nav-title text-white">Day 2</h4>
+            <span className="text-white">28 July, 2022</span>
           </a>
         </li>
         <li className="nav-item">
@@ -153,8 +155,8 @@ const EventSchedule = (props) => {
             role="tab"
             aria-controls="day-3"
           >
-            <h4 className="nav-title">Day 3</h4>
-            <span>28 July, 2022</span>
+            <h4 className="nav-title text-white">Day 3</h4>
+            <span className="text-white">28 July, 2022</span>
           </a>
         </li>
       </ul>
@@ -164,11 +166,11 @@ const EventSchedule = (props) => {
   return (
     <>
       <div id="event" className="event-schedule mt-5">
-        <div style={{ margin: "0px" }} className="container">
+        <div className="container">
           <div className="row justify-content-center">
             <div className="col-lg-8">
               <div className="section-title text-center">
-                <h2 className="title">PAST-EVENTS</h2>
+                <h2 className="title text-blue">PAST-EVENTS</h2>
                 <p className="text">
                   Lorem ipsum dolor sit amet, in quodsi vulputate pro. Ius illum
                   vocent mediocritatem reiciendis odit sed, vero amet blanditiis
@@ -179,7 +181,7 @@ const EventSchedule = (props) => {
           </div>
           <div className="row">
             <div className="col-lg-12">
-              <div className="event-tab pb-5">
+              <div className="event-tab pb-5 border-none">
                 <DaysFunc />
                 <div className="tab-content" id="myTabContent">
                   {tabPanel}

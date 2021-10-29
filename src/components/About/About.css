@@ -5,9 +5,9 @@
     top: 0;
     left: 0;
     z-index: 0;
-    background: url('../../assets/about/bgcurvedark.svg') right no-repeat;
+    background: url('../../assets/about/curve1.svg') right no-repeat;
     background-size: 105vh 100vw;
-    /* display: none; */
+    display: none;
     opacity: .3;
 }
 .about-body {
@@ -53,14 +53,15 @@
     align-items: center;
     background: #0e0e0e;
     color: #fff;
-    box-shadow: 0px 0px 5px #343434;
+    /* box-shadow: 0px 0px 5px #343434 !important; */
     border-radius: 10px;
     scroll-snap-align: start;
     transition: all .3s;
+    border: none !important;
 }
 
 .sections .section:hover{
-    box-shadow: 0px 0px 8px #343434;
+    box-shadow: 3px 3px 10px #00000052, -3px -3px 10px #121212a8 !important;
     cursor: pointer;
 }
 

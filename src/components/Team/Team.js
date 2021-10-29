@@ -13,14 +13,12 @@ const Team = () => {
     return (
         <>
             <div className="team-body">
-                {/* <h1 className="ourTeam">Our Team</h1> */}
-                <p className="team mt-4">
+                <p className="team my-3">
                     <span className="ab">Ou</span>r Team
                 </p>
                 <TeamCard2 src={Aditya} name="Dr. Meenakshi Thalor" role="Faculty Guide" />
 
                 <TeamCard3 aos="fade-up" easing="ease-in-out" />
-
 
             </div>
         </>
