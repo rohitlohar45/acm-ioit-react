@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/acm-ioit-react/static/css/main.8044c639.chunk.css",
-    "main.js": "/acm-ioit-react/static/js/main.8a8d67f4.chunk.js",
-    "main.js.map": "/acm-ioit-react/static/js/main.8a8d67f4.chunk.js.map",
+    "main.css": "/acm-ioit-react/static/css/main.a6da4ce4.chunk.css",
+    "main.js": "/acm-ioit-react/static/js/main.0c665318.chunk.js",
+    "main.js.map": "/acm-ioit-react/static/js/main.0c665318.chunk.js.map",
     "runtime-main.js": "/acm-ioit-react/static/js/runtime-main.a1ee0668.js",
     "runtime-main.js.map": "/acm-ioit-react/static/js/runtime-main.a1ee0668.js.map",
     "static/css/2.454f2c50.chunk.css": "/acm-ioit-react/static/css/2.454f2c50.chunk.css",
-    "static/js/2.fa2bfeb3.chunk.js": "/acm-ioit-react/static/js/2.fa2bfeb3.chunk.js",
-    "static/js/2.fa2bfeb3.chunk.js.map": "/acm-ioit-react/static/js/2.fa2bfeb3.chunk.js.map",
+    "static/js/2.2acc4664.chunk.js": "/acm-ioit-react/static/js/2.2acc4664.chunk.js",
+    "static/js/2.2acc4664.chunk.js.map": "/acm-ioit-react/static/js/2.2acc4664.chunk.js.map",
     "index.html": "/acm-ioit-react/index.html",
     "static/css/2.454f2c50.chunk.css.map": "/acm-ioit-react/static/css/2.454f2c50.chunk.css.map",
-    "static/css/main.8044c639.chunk.css.map": "/acm-ioit-react/static/css/main.8044c639.chunk.css.map",
-    "static/js/2.fa2bfeb3.chunk.js.LICENSE.txt": "/acm-ioit-react/static/js/2.fa2bfeb3.chunk.js.LICENSE.txt",
+    "static/css/main.a6da4ce4.chunk.css.map": "/acm-ioit-react/static/css/main.a6da4ce4.chunk.css.map",
+    "static/js/2.2acc4664.chunk.js.LICENSE.txt": "/acm-ioit-react/static/js/2.2acc4664.chunk.js.LICENSE.txt",
     "static/media/Abhishek.a9c5c72a.jpg": "/acm-ioit-react/static/media/Abhishek.a9c5c72a.jpg",
     "static/media/Aditya.5c483c14.jpg": "/acm-ioit-react/static/media/Aditya.5c483c14.jpg",
     "static/media/Ankit.1e792dbe.jpg": "/acm-ioit-react/static/media/Ankit.1e792dbe.jpg",
@@ -29,15 +29,15 @@
     "static/media/Shruti.88396356.jpg": "/acm-ioit-react/static/media/Shruti.88396356.jpg",
     "static/media/Sushil.74cda851.jpg": "/acm-ioit-react/static/media/Sushil.74cda851.jpg",
     "static/media/Vaishnavi.9a0be0b6.jpg": "/acm-ioit-react/static/media/Vaishnavi.9a0be0b6.jpg",
-    "static/media/about.3e3431e1.jpg": "/acm-ioit-react/static/media/about.3e3431e1.jpg",
     "static/media/acm.bf59f7c4.svg": "/acm-ioit-react/static/media/acm.bf59f7c4.svg",
-    "static/media/About.css": "/acm-ioit-react/static/media/bgcurvedark.f8484632.svg",
-    "static/media/mem1.45da42e0.svg": "/acm-ioit-react/static/media/mem1.45da42e0.svg",
+    "static/media/acm_nobg.44e44e55.png": "/acm-ioit-react/static/media/acm_nobg.44e44e55.png",
+    "static/media/About.css": "/acm-ioit-react/static/media/curve1.9f38eca1.svg",
+    "static/media/knowledge.7b7df974.svg": "/acm-ioit-react/static/media/knowledge.7b7df974.svg",
     "static/media/mem2.affbf789.svg": "/acm-ioit-react/static/media/mem2.affbf789.svg",
     "static/media/mem4.ea68c305.svg": "/acm-ioit-react/static/media/mem4.ea68c305.svg",
     "static/media/mem5.612a1b4e.svg": "/acm-ioit-react/static/media/mem5.612a1b4e.svg",
     "static/media/mem6.d6e4e45f.png": "/acm-ioit-react/static/media/mem6.d6e4e45f.png",
-    "static/media/mem8.843d24a0.png": "/acm-ioit-react/static/media/mem8.843d24a0.png",
+    "static/media/newsletter.d0c2a134.svg": "/acm-ioit-react/static/media/newsletter.d0c2a134.svg",
     "static/media/slick-theme.css": "/acm-ioit-react/static/media/slick.c94f7671.ttf",
     "static/media/svg2.9800be39.svg": "/acm-ioit-react/static/media/svg2.9800be39.svg",
     "static/media/svg3.405676b5.svg": "/acm-ioit-react/static/media/svg3.405676b5.svg"
@@ -45,8 +45,8 @@
   "entrypoints": [
     "static/js/runtime-main.a1ee0668.js",
     "static/css/2.454f2c50.chunk.css",
-    "static/js/2.fa2bfeb3.chunk.js",
-    "static/css/main.8044c639.chunk.css",
-    "static/js/main.8a8d67f4.chunk.js"
+    "static/js/2.2acc4664.chunk.js",
+    "static/css/main.a6da4ce4.chunk.css",
+    "static/js/main.0c665318.chunk.js"
   ]
 }
