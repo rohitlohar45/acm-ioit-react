@@ -1,13 +1,15 @@
 import React, { useState } from "react";
 // import "./owl";
 import "./News3.css";
-import Data from "../Events/EventDesc";
+import { NavLink } from "react-router-dom";
+// import Data from "../Events/EventDesc";
+import Data from "./FlashEvents"
 import Slider from "react-slick";
 
 const DataFunc = (data) => {
-  if (data.id < 5) {
+  if (data.id > 0) {
     return (
-      <a href={`/Events/${data.id}`} key={data.id} className="col-lg-3">
+      <NavLink to={`/Events/${data.id}`} key={data.id} className="col-lg-3">
         <div
           style={{ height: "450px" }}
           className={`features-item ${data.feature}-feature wow fadeInUp`}
@@ -22,7 +24,7 @@ const DataFunc = (data) => {
           <div className="line-dec"></div>
           <p>{data.descShort}</p>
         </div>
-      </a>
+      </NavLink>
     );
   }
 };
@@ -78,7 +80,7 @@ const News = () => {
 
   return (
     <>
-      <h6 className="upcoming-event">Our Upcoming Events</h6>
+      <h6 className="upcoming-event">Our Events</h6>
       <h2 className="my-4" style={{ fontSize: "20px", textAlign: "center" }}>
         Discover What We Do &amp; <span>Offer</span> To Our
         <em> Students</em>

@@ -1,5 +1,6 @@
 import React from "react";
 import "./AboutIOIT2.css";
+import { NavLink } from "react-router-dom";
 import AboutImage from "../../../assets/acm_nobg.png";
 
 const AboutIOIT = () => {
@@ -33,20 +34,20 @@ const AboutIOIT = () => {
               <div className="row">
                 <div className="col-lg-4 col-sm-4">
                   <div className="about-item">
-                    <h4>750+</h4>
-                    <h6>projects finished</h6>
+                    <h4>50+</h4>
+                    <h6>Activities</h6>
                   </div>
                 </div>
                 <div className="col-lg-4 col-sm-4">
                   <div className="about-item">
-                    <h4>340+</h4>
-                    <h6>happy clients</h6>
+                    <h4>20+</h4>
+                    <h6>Expert Talks</h6>
                   </div>
                 </div>
                 <div className="col-lg-4 col-sm-4">
                   <div className="about-item">
-                    <h4>128+</h4>
-                    <h6>awards</h6>
+                    <h4>10+</h4>
+                    <h6>Workshops</h6>
                   </div>
                 </div>
               </div>
@@ -73,7 +74,7 @@ const AboutIOIT = () => {
                 education.
               </p>
               <div className="main-green-button">
-                <a href="/About/">More About Us</a>
+                <NavLink to="/About">More About Us</NavLink>
               </div>
             </div>
           </div>

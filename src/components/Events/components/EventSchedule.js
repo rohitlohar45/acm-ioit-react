@@ -117,7 +117,7 @@ const EventSchedule = (props) => {
             aria-controls="day-all"
           >
             <h4 className="nav-title text-white">All</h4>
-            <span className="text-white">28 July, 2022</span>
+            {/* <span className="text-white">2019 - 2021</span> */}
           </a>
         </li>
         <li className="nav-item">
@@ -129,8 +129,8 @@ const EventSchedule = (props) => {
             role="tab"
             aria-controls="day-1"
           >
-            <h4 className="nav-title text-white">Day 1</h4>
-            <span className="text-white">28 July, 2022</span>
+            <h4 className="nav-title text-white">2021</h4>
+            {/* <span className="text-white">2021</span> */}
           </a>
         </li>
         <li className="nav-item">
@@ -142,8 +142,8 @@ const EventSchedule = (props) => {
             role="tab"
             aria-controls="day-2"
           >
-            <h4 className="nav-title text-white">Day 2</h4>
-            <span className="text-white">28 July, 2022</span>
+            <h4 className="nav-title text-white">2020</h4>
+            {/* <span className="text-white">28 July, 2022</span> */}
           </a>
         </li>
         <li className="nav-item">
@@ -155,8 +155,8 @@ const EventSchedule = (props) => {
             role="tab"
             aria-controls="day-3"
           >
-            <h4 className="nav-title text-white">Day 3</h4>
-            <span className="text-white">28 July, 2022</span>
+            <h4 className="nav-title text-white">2019</h4>
+            {/* <span className="text-white">28 July, 2022</span> */}
           </a>
         </li>
       </ul>
@@ -171,11 +171,11 @@ const EventSchedule = (props) => {
             <div className="col-lg-8">
               <div className="section-title text-center">
                 <h2 className="title text-blue">PAST-EVENTS</h2>
-                <p className="text">
+                {/* <p className="text">
                   Lorem ipsum dolor sit amet, in quodsi vulputate pro. Ius illum
                   vocent mediocritatem reiciendis odit sed, vero amet blanditiis
                   cule dicta iriure at phaedrum.
-                </p>
+                </p> */}
               </div>
             </div>
           </div>

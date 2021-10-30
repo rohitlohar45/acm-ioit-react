@@ -1,13 +1,13 @@
 const upcoming = [
     {
         id: "1",
-        title: "A webinar on Big Data Engineering",
-        link: "https://i.ibb.co/kmLbpWt/Big-Data-Engineering.png",
+        title: "Github & Azure Code To Cloud Workshop",
+        link: "https://i.ibb.co/3mWN7ty/ACM-Git-Azure.jpg",
         descLong: "",
-        descShort: "A webinar by Mr. Mario Rozario on Big Data Engineering",
-        date: "28th January 2021",
-        timing: "11:00-12:00 PM",
-        registerLink: "https://forms.gle/kirTFbwU8Npn4DDn8"
+        descShort: "Microsoft and GitHub are pleased to announce an exclusive & complementary learning session. With a one-of-a-kind repository of curated content on Azure and GitHub, the workshop enables you to plan smarter, track work, and prevent vulnerabilities.",
+        date: "20th November 2021",
+        timing: "9:30 AM-6:30 PM",
+        registerLink: "https://rpsconsultingpvtltd.viewpage.co/Azure-GitHub-Workshop-AISSMS"
     }
 ];
 

@@ -100,7 +100,8 @@
     height: 40px;
     line-height: 30px;
     font-weight: 700;
-    color: #2a2a2a;
+    /* color: #2a2a2a; */
+    color: #111111 !important;
     position: relative;
     transition: all 0.5s;
 }
