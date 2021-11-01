@@ -1,88 +1,78 @@
 import { useState } from "react";
 
-import '../Events.css';
+import "../Events.css";
+import EventDesc from "../../Dashboard/Events/EventDesc";
 
 const TabPanel = (id) => {
-  return (
-    <div className="tab-pane fade show active" id={`day-${id}`} role="tabpanel">
-      <div className="event-content">
-        <div className="single-event d-md-flex bg-card box-shadow">
-          <div className="event-image">
-            <img
-              src="https://i.ibb.co/nBWdDQL/ACM-Game-of-theory.jpg"
-              alt="Event"
-            />
-          </div>
-          <div className="event-content media-body">
-            <h4 className="event-title text-blue">
-              Web Design Principle and Best Practise {id}
-            </h4>
-            <p className="text text-white">
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet
-              minima dolores rerum maiores qui at commodi quas, reprehenderit
-              eius consectetur quae magni molestias veniam, provident illum
-              facere iure libero asperiores!
-            </p>
-            <ul className="event-meta">
-              <li>Start: 12.00 PM</li>
-              <li>End: 15.00 PM</li>
-              <li>Location: Hall 1 , Building A, Golden Street, Southafrica</li>
-            </ul>
-          </div>
-        </div>
-
-        <div className="single-event d-md-flex bg-card box-shadow">
-          <div className="event-image">
-            <img
-              src="https://i.ibb.co/nBWdDQL/ACM-Game-of-theory.jpg"
-              alt="Event"
-            />
-          </div>
-          <div className="event-content media-body">
-            <h4 className="event-title text-blue">15 FREE PRODUCTIVE DESIGN TOOLS</h4>
-            <p className="text text-white">
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet
-              minima dolores rerum maiores qui at commodi quas, reprehenderit
-              eius consectetur quae magni molestias veniam, provident illum
-              facere iure libero asperiores!
-            </p>
-            <ul className="event-meta">
-              <li>Start: 12.00 PM</li>
-              <li>End: 15.00 PM</li>
-              <li>Location: Hall 1 , Building A, Golden Street, Southafrica</li>
-            </ul>
-          </div>
-        </div>
-
-        <div className="single-event d-md-flex bg-card box-shadow">
-          <div className="event-image">
-            <img
-              src="https://i.ibb.co/nBWdDQL/ACM-Game-of-theory.jpg"
-              alt="Event"
-            />
-          </div>
-          <div className="event-content media-body">
-            <h4 className="event-title text-blue">GETTING STARTED WITH SKETCHAPP</h4>
-            <p className="text text-white">
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet
-              minima dolores rerum maiores qui at commodi quas, reprehenderit
-              eius consectetur quae magni molestias veniam, provident illum
-              facere iure libero asperiores!
-            </p>
-            <ul className="event-meta">
-              <li>Start: 12.00 PM</li>
-              <li>End: 15.00 PM</li>
-              <li>Location: Hall 1 , Building A, Golden Street, Southafrica</li>
-            </ul>
-          </div>
+  if (id === "all") {
+    return (
+      <div
+        className="tab-pane fade show active"
+        id={`day-${id}`}
+        role="tabpanel"
+      >
+        <div className="event-content">
+          {EventDesc.map((event) => {
+            return (
+              <div className="single-event d-md-flex bg-card box-shadow">
+                <div className="event-image">
+                  <img src={event.link} alt="Event" />
+                </div>
+                <div className="event-content media-body">
+                  <h4 className="event-title text-blue">{event.title}</h4>
+                  <p className="text text-white">{event.descShort}</p>
+                  <ul className="event-meta">
+                    <li>Start: 12.00 PM</li>
+                    <li>End: 15.00 PM</li>
+                    <li>
+                      Location: Hall 1 , Building A, Golden Street, Southafrica
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            );
+          })}
         </div>
       </div>
-    </div>
-  );
+    );
+  } else {
+    return (
+      <div
+        className="tab-pane fade show active"
+        id={`day-${id}`}
+        role="tabpanel"
+      >
+        <div className="event-content">
+          {EventDesc.map((event) => {
+            return event.year === id ? (
+              <div className="single-event d-md-flex bg-card box-shadow">
+                <div className="event-image">
+                  <img src={event.link} alt="Event" />
+                </div>
+                <div className="event-content media-body">
+                  <h4 className="event-title text-blue">{event.title}</h4>
+                  <p className="text text-white">{event.descShort}</p>
+                  <ul className="event-meta">
+                    <li>Start: 12.00 PM</li>
+                    <li>End: 15.00 PM</li>
+                    <li>
+                      Location: Hall 1 , Building A, Golden Street, Southafrica
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            ) : (
+              ""
+            );
+          })}
+        </div>
+      </div>
+    );
+  }
 };
 
 const EventSchedule = (props) => {
-  const [tabPanel, setTabPanel] = useState(() => TabPanel("all"));
+  const [tabPanel, setTabPanel] = useState(() => TabPanel("2021"));
   const [active, setActive] = useState({
     taball: "active-tab",
     tab1: "",
@@ -125,7 +115,7 @@ const EventSchedule = (props) => {
             className={`${active.tab1} animated-button victoria-two`}
             id="day-1-tab"
             data-toggle="tab"
-            onClick={(event) => handleDays(event, 1)}
+            onClick={(event) => handleDays(event, "2021")}
             role="tab"
             aria-controls="day-1"
           >
@@ -138,7 +128,7 @@ const EventSchedule = (props) => {
             className={`${active.tab2} animated-button victoria-two`}
             id="day-2-tab"
             data-toggle="tab"
-            onClick={(event) => handleDays(event, 2)}
+            onClick={(event) => handleDays(event, "2020")}
             role="tab"
             aria-controls="day-2"
           >
@@ -151,7 +141,7 @@ const EventSchedule = (props) => {
             className={`${active.tab3} animated-button victoria-two`}
             id="day-3-tab"
             data-toggle="tab"
-            onClick={(event) => handleDays(event, 3)}
+            onClick={(event) => handleDays(event, "2019")}
             role="tab"
             aria-controls="day-3"
           >
