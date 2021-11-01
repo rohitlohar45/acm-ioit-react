@@ -4,6 +4,7 @@ import { Container } from "react-bootstrap";
 import Modal from "react-modal";
 import { Button } from "react-bootstrap";
 import WebTeamCard2 from "./webTeam/WebTeamCard2";
+import { NavLink } from "react-router-dom";
 
 
 Modal.setAppElement("#root");
@@ -84,14 +85,17 @@ const Footer = () => {
             <h2>Quick Links</h2>
             <ul>
               <li>
-                <a style={textStyle} href="localhost:3000">
+                <NavLink to="/About" style={textStyle} >
                   About
-                </a>
+                </NavLink>
+                {/* <a style={textStyle} >
+                  <NavLink to="/About">About</NavLink>
+                </a> */}
               </li>
               <li>
-                <a style={textStyle} href="localhost:3000">
+                <NavLink to="/" style={textStyle} >
                   Home
-                </a>
+                </NavLink>
               </li>
               <li>
                 <a style={textStyle} href="https://dl.acm.org/">
@@ -99,9 +103,9 @@ const Footer = () => {
                 </a>
               </li>
               <li>
-                <a style={textStyle} href="localhost:3000">
+                <NavLink to="/Membership" style={textStyle} >
                   Membership
-                </a>
+                </NavLink>
               </li>
             </ul>
           </div>
@@ -112,7 +116,7 @@ const Footer = () => {
 
       <div className="afterFooter">
         <p className="footer-text">Developed by AISSMS IOIT ACM Student chapter</p>
-        
+
 
         <Button onClick={() => setModalIsOpen(true)}>WebTeam</Button>
         <Modal
