@@ -25,7 +25,7 @@ const About1 = () => {
                         </div>
                         <div className="line line1">
                         </div>
-                        <div className="content text-justify p-2">
+                        <div className="content text-justify p-3">
                         <h2 className="heading text-blue">ACM</h2>
                             <p>
                                 The Association for Computing Machinery is an international 
@@ -45,7 +45,7 @@ const About1 = () => {
                         </div>
                         <div className="line line1">
                         </div>
-                        <div className="content text-justify p-2">
+                        <div className="content text-justify p-3">
                             <h2 className="heading text-blue">ACM IOIT Student Chapter</h2>
                             <p>
                             ACM IOIT Student Chapter was founded on 2019, with a vision to carry forward ACM’s 
@@ -63,7 +63,7 @@ const About1 = () => {
                         </div>
                         <div className="line line1">
                         </div>
-                        <div className="content text-justify p-2 px-md-5">
+                        <div className="content text-justify p-3 px-md-5">
                             <h2 className="heading text-blue">More About College</h2>
                             <p>
                             Located at the heart of Pune city, AISSMS IOIT was established in August 1999. 

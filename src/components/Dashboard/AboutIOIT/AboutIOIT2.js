@@ -32,19 +32,19 @@ const AboutIOIT = () => {
                 </h2>
               </div>
               <div className="row">
-                <div className="col-lg-4 col-sm-4">
+                <div className="col-lg-4 col-sm-4 text-center py-2">
                   <div className="about-item">
                     <h4>50+</h4>
                     <h6>Activities</h6>
                   </div>
                 </div>
-                <div className="col-lg-4 col-sm-4">
+                <div className="col-lg-4 col-sm-4 text-center py-2">
                   <div className="about-item">
                     <h4>20+</h4>
                     <h6>Expert Talks</h6>
                   </div>
                 </div>
-                <div className="col-lg-4 col-sm-4">
+                <div className="col-lg-4 col-sm-4 text-center py-2">
                   <div className="about-item">
                     <h4>10+</h4>
                     <h6>Workshops</h6>

@@ -32,7 +32,7 @@ const formSubmit = (e) => {
 
 
 const inputStyle = {
-  backgroundColor: '#00aaff',
+  backgroundColor: 'transparent',
   border: '0px',
   borderBottom: '1px solid black',
   borderRadius: '0%',

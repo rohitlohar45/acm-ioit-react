@@ -6,8 +6,8 @@ section {
 }
 
 .icons {
-    background: #00aaff;
-
+    /* background: #00aaff; */
+    background: linear-gradient(105deg,#33ccc5,#088dc3);
 }
 
 .iconbtn {
@@ -84,7 +84,8 @@ section {
 
 
 .digital-library-head {
-    background-color: #00aaff;
+    /* background-color: #00aaff; */
+    background: linear-gradient(105deg,#33ccc5,#088dc3);
     color: #111 !important;
     font-size: 3.8vh;
     text-align: center;

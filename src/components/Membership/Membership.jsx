@@ -4,11 +4,11 @@ import "./Membership.css"
 import '../../App.css';
 import 'bootstrap/dist/css/bootstrap.min.css'
 
-import mem from "../../assets/mem5.svg"
+import mem from "../../assets/membership/discounts1.svg"
 import mem1 from "../../assets/membership/knowledge.svg"
-import mem2 from "../../assets/mem2.svg"
-import mem3 from "../../assets/mem4.svg"
-import mem4 from "../../assets/mem6.png"
+import mem2 from "../../assets/membership/learning.svg"
+import mem3 from "../../assets/membership/innovate.svg"
+import mem4 from "../../assets/membership/connections.svg"
 import mem5 from "../../assets/membership/newsletter.svg"
 
 const Membership = () => {
@@ -45,6 +45,7 @@ const Membership = () => {
                         <div className="cardm box-shadow">
                             <div className="imgboxm blue-bg-card" data-text="Innovate">
                                 <img src={mem3} alt="" />
+                                <p className="text-blue pt-2 card-title">Innovate</p>
                             </div>
                             <div className="contentcard">
                                 <h3>Innovate</h3>
@@ -54,6 +55,7 @@ const Membership = () => {
                         <div className="cardm box-shadow">
                             <div className="imgboxm blue-bg-card">
                                 <img src={mem1} alt="" srcset="" />
+                                <p className="text-blue pt-2 card-title">Knowledge</p>
                             </div>
                             <div className="contentcard">
                                 <h3>Acquire Knowledge</h3>
@@ -65,6 +67,7 @@ const Membership = () => {
                         <div className="cardm box-shadow">
                             <div className="imgboxm blue-bg-card">
                                 <img src={mem2} alt="" srcset="" />
+                                <p className="text-blue pt-2 card-title">Learning</p>
                             </div>
                             <div className="contentcard">
                                 <h3>Lifelong Learning</h3>
@@ -74,6 +77,7 @@ const Membership = () => {
                         <div className="cardm box-shadow">
                             <div className="imgboxm blue-bg-card">
                                 <img src={mem} alt="" srcset="" />
+                                <p className="text-blue pt-2 card-title">Discounts</p>
                             </div>
                             <div className="contentcard">
                                 <h3>Exclusive Discounts</h3>
@@ -85,6 +89,7 @@ const Membership = () => {
                         <div className="cardm box-shadow">
                             <div className="imgboxm blue-bg-card">
                                 <img src={mem4} alt="" srcset="" />
+                                <p className="text-blue pt-2 card-title">Connections</p>
                             </div>
                             <div className="contentcard">
                                 <h3 id="h3id">Establish Connections</h3>
@@ -94,6 +99,7 @@ const Membership = () => {
                         <div className="cardm box-shadow">
                             <div className="imgboxm blue-bg-card">
                                 <img src={mem5} alt="" srcset="" />
+                                <p className="text-blue pt-2 card-title">Newsletter</p>
                             </div>
                             <div className="contentcard">
                                 <h3 className="card6">Tri-weekly Newsletter</h3>
