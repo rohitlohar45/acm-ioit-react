@@ -22,11 +22,7 @@ const TabPanel = (id) => {
                   <h4 className="event-title text-blue">{event.title}</h4>
                   <p className="text text-white">{event.descShort}</p>
                   <ul className="event-meta">
-                    <li>Start: 12.00 PM</li>
-                    <li>End: 15.00 PM</li>
-                    <li>
-                      Location: Hall 1 , Building A, Golden Street, Southafrica
-                    </li>
+                    <li>{event.date}</li>
                   </ul>
                 </div>
               </div>
@@ -53,11 +49,7 @@ const TabPanel = (id) => {
                   <h4 className="event-title text-blue">{event.title}</h4>
                   <p className="text text-white">{event.descShort}</p>
                   <ul className="event-meta">
-                    <li>Start: 12.00 PM</li>
-                    <li>End: 15.00 PM</li>
-                    <li>
-                      Location: Hall 1 , Building A, Golden Street, Southafrica
-                    </li>
+                    <li>{event.date}</li>
                   </ul>
                 </div>
               </div>
