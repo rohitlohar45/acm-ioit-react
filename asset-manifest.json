@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/acm-ioit-react/static/css/main.8c9e9fcf.chunk.css",
-    "main.js": "/acm-ioit-react/static/js/main.84550031.chunk.js",
-    "main.js.map": "/acm-ioit-react/static/js/main.84550031.chunk.js.map",
+    "main.css": "/acm-ioit-react/static/css/main.70dd9ae3.chunk.css",
+    "main.js": "/acm-ioit-react/static/js/main.822259f6.chunk.js",
+    "main.js.map": "/acm-ioit-react/static/js/main.822259f6.chunk.js.map",
     "runtime-main.js": "/acm-ioit-react/static/js/runtime-main.a1ee0668.js",
     "runtime-main.js.map": "/acm-ioit-react/static/js/runtime-main.a1ee0668.js.map",
     "static/css/2.454f2c50.chunk.css": "/acm-ioit-react/static/css/2.454f2c50.chunk.css",
@@ -10,7 +10,7 @@
     "static/js/2.6f1a102e.chunk.js.map": "/acm-ioit-react/static/js/2.6f1a102e.chunk.js.map",
     "index.html": "/acm-ioit-react/index.html",
     "static/css/2.454f2c50.chunk.css.map": "/acm-ioit-react/static/css/2.454f2c50.chunk.css.map",
-    "static/css/main.8c9e9fcf.chunk.css.map": "/acm-ioit-react/static/css/main.8c9e9fcf.chunk.css.map",
+    "static/css/main.70dd9ae3.chunk.css.map": "/acm-ioit-react/static/css/main.70dd9ae3.chunk.css.map",
     "static/js/2.6f1a102e.chunk.js.LICENSE.txt": "/acm-ioit-react/static/js/2.6f1a102e.chunk.js.LICENSE.txt",
     "static/media/Abhishek.a9c5c72a.jpg": "/acm-ioit-react/static/media/Abhishek.a9c5c72a.jpg",
     "static/media/Aditya.5c483c14.jpg": "/acm-ioit-react/static/media/Aditya.5c483c14.jpg",
@@ -31,12 +31,12 @@
     "static/media/Vaishnavi.9a0be0b6.jpg": "/acm-ioit-react/static/media/Vaishnavi.9a0be0b6.jpg",
     "static/media/acm.bf59f7c4.svg": "/acm-ioit-react/static/media/acm.bf59f7c4.svg",
     "static/media/acm_nobg.44e44e55.png": "/acm-ioit-react/static/media/acm_nobg.44e44e55.png",
+    "static/media/connections.61e0a2d4.svg": "/acm-ioit-react/static/media/connections.61e0a2d4.svg",
     "static/media/About.css": "/acm-ioit-react/static/media/curve1.9f38eca1.svg",
+    "static/media/discounts1.c194ddf4.svg": "/acm-ioit-react/static/media/discounts1.c194ddf4.svg",
+    "static/media/innovate.2b023f22.svg": "/acm-ioit-react/static/media/innovate.2b023f22.svg",
     "static/media/knowledge.7b7df974.svg": "/acm-ioit-react/static/media/knowledge.7b7df974.svg",
-    "static/media/mem2.affbf789.svg": "/acm-ioit-react/static/media/mem2.affbf789.svg",
-    "static/media/mem4.ea68c305.svg": "/acm-ioit-react/static/media/mem4.ea68c305.svg",
-    "static/media/mem5.612a1b4e.svg": "/acm-ioit-react/static/media/mem5.612a1b4e.svg",
-    "static/media/mem6.d6e4e45f.png": "/acm-ioit-react/static/media/mem6.d6e4e45f.png",
+    "static/media/learning.831bedc1.svg": "/acm-ioit-react/static/media/learning.831bedc1.svg",
     "static/media/newsletter.d0c2a134.svg": "/acm-ioit-react/static/media/newsletter.d0c2a134.svg",
     "static/media/slick-theme.css": "/acm-ioit-react/static/media/slick.c94f7671.ttf",
     "static/media/svg2.9800be39.svg": "/acm-ioit-react/static/media/svg2.9800be39.svg",
@@ -46,7 +46,7 @@
     "static/js/runtime-main.a1ee0668.js",
     "static/css/2.454f2c50.chunk.css",
     "static/js/2.6f1a102e.chunk.js",
-    "static/css/main.8c9e9fcf.chunk.css",
-    "static/js/main.84550031.chunk.js"
+    "static/css/main.70dd9ae3.chunk.css",
+    "static/js/main.822259f6.chunk.js"
   ]
 }
