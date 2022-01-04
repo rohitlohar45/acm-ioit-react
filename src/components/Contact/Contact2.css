@@ -136,7 +136,7 @@
     margin-bottom: 2px;
     /* border : 2px solid var(--high-color); */
     z-index: 999;
-    width:80%;
+    width: 80%;
     /* text-align: center; */
 
 }
@@ -250,7 +250,7 @@
         height: 90%;
         width: 100%;
         /* margin: 5%; */
-        padding: 15% 0 10% 0;
+        padding: 8% 0 10% 0;
         /* right: 0; */
 
         justify-content: space-between;
