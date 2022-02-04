@@ -6,8 +6,8 @@ const Data = [
         link: "https://i.ibb.co/nBWdDQL/ACM-Game-of-theory.jpg",
         descShort: "A 2-Hour Webinar by Dr.R Ramanujam on the topic-Game Theory",
         descLong: "What does a cake have in common with bandwidth? Well, everyone wants as large a piece of it as one can get away with, though we all know we must share. When several people have selfish, potentially conflicting, goals but also must cooperate to achieve something, game theory is the natural realm. Instead of people, consider geographically distributed processes sharing resources across the globe, and you see the connection to computing. In the modern era of computing agents acting autonomously and interacting with each other, strategic reasoning and algorithms combine in new ways, posing new challenges and new opportunities. The talk is an invitation to this fascinating emerging area of research.",
-        year: "2019",
-        date: "9th June 2019",
+        year: "2020",
+        date: "9th June 2020",
     },
     {
         id: "2",
@@ -99,7 +99,26 @@ const Data = [
         year: "2021",
         date: "12th October-16th October 2021",
     },
-
+    {
+        id: "11",
+        feature: "third",
+        title: "Augmented Reality Workshop",
+        link: "https://i.ibb.co/0CycW7L/ACM-ARworkshop.jpg",
+        descShort: "The objective of this event was to encourage students to buy the ACM membership and spread knowledge about AR.",
+        descLong: "The event reached throughout the college's departments. The event was attended by over 130+ students from the college. The goals and expectations set for this event were met. The event has opened up a dialogue between the speaker and the participants. Student have more knowledge about the benefits of the membership. This helped build and improve the overall reach of the ACM student chapter.",
+        year: "2022",
+        date: "17th January 2022-21th January 2022",
+    },
+    {
+        id: "12",
+        feature: "fourth",
+        title: "Valorant Mania",
+        link: "https://i.ibb.co/ftNCs5k/ACM-valorant.jpg",
+        descShort: "The objective of this event was to encourage students to buy the ACM membership and create a fun environment through this event.",
+        descLong: "The event reached throughout the college's departments. The event was attended by over 20 students from the college and 5 from outside. The goals and expectations set for this event were met. The event has opened up a dialogue between the speaker and the participants. Student have more knowledge about the benefits of the membership. This helped build and improve the overall reach of the ACM student chapter.",
+        year: "2022",
+        date: "8th January 2022",
+    },
 ]
 
 export default Data;

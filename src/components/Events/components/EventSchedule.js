@@ -107,11 +107,11 @@ const EventSchedule = (props) => {
             className={`${active.tab1} animated-button victoria-two`}
             id="day-1-tab"
             data-toggle="tab"
-            onClick={(event) => handleDays(event, "2021")}
+            onClick={(event) => handleDays(event, "2022")}
             role="tab"
             aria-controls="day-1"
           >
-            <h4 className="nav-title text-white">2021</h4>
+            <h4 className="nav-title text-white">2022</h4>
             {/* <span className="text-white">2021</span> */}
           </a>
         </li>
@@ -120,11 +120,11 @@ const EventSchedule = (props) => {
             className={`${active.tab2} animated-button victoria-two`}
             id="day-2-tab"
             data-toggle="tab"
-            onClick={(event) => handleDays(event, "2020")}
+            onClick={(event) => handleDays(event, "2021")}
             role="tab"
             aria-controls="day-2"
           >
-            <h4 className="nav-title text-white">2020</h4>
+            <h4 className="nav-title text-white">2021</h4>
             {/* <span className="text-white">28 July, 2022</span> */}
           </a>
         </li>
@@ -133,11 +133,11 @@ const EventSchedule = (props) => {
             className={`${active.tab3} animated-button victoria-two`}
             id="day-3-tab"
             data-toggle="tab"
-            onClick={(event) => handleDays(event, "2019")}
+            onClick={(event) => handleDays(event, "2020")}
             role="tab"
             aria-controls="day-3"
           >
-            <h4 className="nav-title text-white">2019</h4>
+            <h4 className="nav-title text-white">2020</h4>
             {/* <span className="text-white">28 July, 2022</span> */}
           </a>
         </li>

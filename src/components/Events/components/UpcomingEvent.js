@@ -21,9 +21,7 @@ function UpcomingEvent(props) {
         <div className="event">
           <p className="title text-white">{props.title}</p>
           <p className="title" style={{ color: "#09bb00" }}>
-            Azure and Github workshop that will enable you plan smarter, track work
-            <br />
-            and prevent vulnerabilities;
+            {props.descShort}
           </p>
           <p className="title text-white">{props.date}</p>
           <p className="title text-white">{props.timing}</p>

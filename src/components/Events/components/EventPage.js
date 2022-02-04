@@ -4,7 +4,7 @@ import { useParams } from "react-router-dom";
 import "../../../../node_modules/tailwindcss/dist/tailwind.min.css";
 import "./EventPage.css";
 
-import EventDetail from "../EventDetail";
+import EventDetail from "../../Dashboard/NewsFlash/FlashEvents";
 
 const EventPage = () => {
   const { id } = useParams();
