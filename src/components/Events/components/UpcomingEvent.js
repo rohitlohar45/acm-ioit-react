@@ -26,7 +26,7 @@ function UpcomingEvent(props) {
           <p className="title text-white">{props.date}</p>
           <p className="title text-white">{props.timing}</p>
           <p className="event-info">{props.descLong}</p>
-          <a href="https://rpsconsultingpvtltd.viewpage.co/Azure-GitHub-Workshop-AISSMS">
+          <a href="https://forms.gle/ybz9kPYE4t5tZB4dA">
             <Button variant="primary" size="lg">Register Now</Button>
           </a>
         </div>

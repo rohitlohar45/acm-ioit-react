@@ -176,8 +176,9 @@ img {
 }
 
 .footer-text{
-  text-align:'center';
-  padding-bottom: '10px';
+  text-align: center;
+  padding-bottom: 10px;
+  /* margin-bottom: 10px; */
 }
 
 @media (max-width: 991px) {

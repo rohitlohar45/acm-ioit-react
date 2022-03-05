@@ -34,7 +34,7 @@ const Footer = () => {
                 </a>
               </li>
               <li>
-                <a href="https://www.instagram.com/ioit.acm/">
+                <a href="https://www.instagram.com/ioit__acm/">
                   <i className="fab fa-instagram"></i>
                 </a>
               </li>
@@ -115,7 +115,7 @@ const Footer = () => {
       </footer>
 
       <div className="afterFooter">
-        <p className="footer-text">Developed by AISSMS IOIT ACM Student chapter</p>
+        <p className="footer-text">Developed by AISSMS IOIT ACM Student Chapter</p>
 
 
         <Button onClick={() => setModalIsOpen(true)}>WebTeam</Button>

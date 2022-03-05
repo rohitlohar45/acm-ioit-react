@@ -224,7 +224,7 @@
         left: 10%;
         color: #fff;
         font-size: 4vh;
-        z-index: 1000;
+        z-index: 999;
         text-align: center;
     }
 
