@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/acm-ioit-react/static/css/main.885b8280.chunk.css",
-    "main.js": "/acm-ioit-react/static/js/main.1f300bed.chunk.js",
-    "main.js.map": "/acm-ioit-react/static/js/main.1f300bed.chunk.js.map",
+    "main.css": "/acm-ioit-react/static/css/main.bc916620.chunk.css",
+    "main.js": "/acm-ioit-react/static/js/main.1f3cda08.chunk.js",
+    "main.js.map": "/acm-ioit-react/static/js/main.1f3cda08.chunk.js.map",
     "runtime-main.js": "/acm-ioit-react/static/js/runtime-main.a1ee0668.js",
     "runtime-main.js.map": "/acm-ioit-react/static/js/runtime-main.a1ee0668.js.map",
     "static/css/2.454f2c50.chunk.css": "/acm-ioit-react/static/css/2.454f2c50.chunk.css",
@@ -10,7 +10,7 @@
     "static/js/2.2cc1f939.chunk.js.map": "/acm-ioit-react/static/js/2.2cc1f939.chunk.js.map",
     "index.html": "/acm-ioit-react/index.html",
     "static/css/2.454f2c50.chunk.css.map": "/acm-ioit-react/static/css/2.454f2c50.chunk.css.map",
-    "static/css/main.885b8280.chunk.css.map": "/acm-ioit-react/static/css/main.885b8280.chunk.css.map",
+    "static/css/main.bc916620.chunk.css.map": "/acm-ioit-react/static/css/main.bc916620.chunk.css.map",
     "static/js/2.2cc1f939.chunk.js.LICENSE.txt": "/acm-ioit-react/static/js/2.2cc1f939.chunk.js.LICENSE.txt",
     "static/media/Abhishek.a9c5c72a.jpg": "/acm-ioit-react/static/media/Abhishek.a9c5c72a.jpg",
     "static/media/Aditya.5c483c14.jpg": "/acm-ioit-react/static/media/Aditya.5c483c14.jpg",
@@ -46,7 +46,7 @@
     "static/js/runtime-main.a1ee0668.js",
     "static/css/2.454f2c50.chunk.css",
     "static/js/2.2cc1f939.chunk.js",
-    "static/css/main.885b8280.chunk.css",
-    "static/js/main.1f300bed.chunk.js"
+    "static/css/main.bc916620.chunk.css",
+    "static/js/main.1f3cda08.chunk.js"
   ]
 }
