@@ -5,11 +5,8 @@ import Rohit from "../../assets/team/Rohit.jpeg"
 import Saadgi from "../../assets/team/Saadgi.jpg"
 import Yash from "../../assets/team/Yash.jpg"
 import Omkar from "../../assets/team/Omkar.jpg"
-// import Hrithik from "../../assets/team/Hrithik.jpg"
-// import Shreyas from "../../assets/team/Shreyas.jpg"
-// import Ninad from "../../assets/team/Ninad.jpg"
-// import Shivprasad from "../../assets/team/Shivprasad.jpg"
-// import Abhishek from "../../assets/team/Abhishek.jpg"
+import Varun from "../../assets/team/Varun.jpg"
+import Anshika from "../../assets/team/Anshika.jpg"
 
 const teams = [
     {
@@ -23,14 +20,14 @@ const teams = [
         id: 2,
         name: 'Anshika Singh',
         role: 'Vice Chair',
-        image: "",
+        image: Anshika,
         linkedinURL: "https://www.linkedin.com/in/anshika-singh-374612212/"
     },
     {
         id: 3,
         name: 'Varun Agarwal',
         role: 'Secretary',
-        image: "",
+        image: Varun,
         linkedinURL: "https://www.linkedin.com/in/varunagrawal408/"
     },
     {
@@ -47,13 +44,7 @@ const teams = [
         image: Aval,
         linkedinURL: "https://www.linkedin.com/in/aval-sonigara-397718220"
     },
-    // {
-    //     id: 6,
-    //     name: 'Omkar Danave',
-    //     role: 'Membership Chair',
-    //     image: Omkar,
-    //     linkedinURL: "https://www.linkedin.com/in/omdanave/"
-    // },
+   
     {
         id: 6,
         name: 'Rohit Lohar',
